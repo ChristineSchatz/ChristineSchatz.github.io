@@ -3,7 +3,7 @@
 body {
    font-family: 'Lato', sans-serif;
    font-size: 1.5em;
-   background-image: url("../stormking.jpg");
+   background-image: url("../stormk.jpg");
    display: block;
    color: #FFFFFF;
 }
@@ -19,23 +19,41 @@ nav ul li {
   font-weight: bold;
 }
 
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: black;
+}
 #name {
   margin-left: 10px;
-  font-size: 50px;
+  margin-top: 20px;
+  font-size: 40px;
+  padding: 5px;
   font-family: Courier;
-  color: #FF9933;
+  color: #FFFFFF;
+  border: 1px solid #FF9933;
+  background-color: #F68D1C;
 }
 
 #blurb {
-  margin-left: 12px;
+  margin-left: 20px;
   color: #FFFFFF;
+  margin-top: 60px;
 }
 
 #footer {
   width: 90%;
   display: block;
+  position: static;
   margin-left:10px;
-  margin-top: 325px;
+  margin-top: 280px;
   padding: 0%;
   float: left;
   text-align: right;
@@ -54,4 +72,19 @@ nav ul li {
   display: block;
   float:left;
   width: 60%;
+  position: absolute;
+  margin-left: 500px;
+}
+
+/* responsive css */
+@media only screen and (max-width: 1300px) {
+   footer {
+    margin-top: 280px;
+   }
+}
+
+@media only screen and (max-width: 2200px) {
+  footer {
+    margin-top: 370px;
+  }
 }
