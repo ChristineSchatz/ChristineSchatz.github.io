@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CHRISTINE SCHATZ - blog</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<div id="wrap">
+
+    <div id="header">
+<nav>
+        <ul>
+          <a href="../index.html"><li>ABOUT</li></a>
+          <a href="../blog-home.html"><li>BLOG</li></a>
+          <a href="#"><li>PROJECTS</li></a>
+          <a href="#"><li>RESUME</li></a>
+        </ul>
+    </div>
+
+    <div class="undef">
+        <div class="top_h"></div>
+
+    <div id="menu">
+
+      </nav>
+
+    <div class="bottom_h"></div>
+
+ </div>
+
+    <div id="page_content">
+      <div class="blogcontent">
+        <h4>Git and GitHub</h4>
+        <h5>What are they, and how are they used?</h5>
+        <p id="date">April 10, 2015</p>
+        <br>
+        <p>Phew! I can't believe Week 1 is already coming to a close. This week's curriculum gave us lots of opportunity to practice using Git and GitHub. So what is Git, and what is GitHub? Git is a version control tool you use on your local machine to keep track of your files and the changes you make to them. GitHub is a website where you can add these tracked files and collaborate with others.
+        </p><br>
+        <p>I had always heard about Git and GitHub and found them pretty intimidating. I'm so glad to have gotten some practice and now I feel a lot more comfortable with Git.
+        </p><br>
+        <h5>What is version control?</h5><br>
+        <p>Version control refers to exactly that - control over different versions of your files. When you save a change to your file, Git detects this change. Git considers three areas of a file: either working, staged, or committed.
+        When you're working with a file and have a change you want to save as a commit, Git's version of a save, you run git add name_of_file to the staging area. The staging area is a sort of holding place for files that are going to be committed. Once you're ready to commit, you run git commit -m "Your message here". Think of a git commit as a "save" in a game you can go back to. If you've made 4 commits to a file, you can go back to the 2nd commit, or whichever commit you want, and work from there. In this way, version control is a safety net of sorts.
+        </p><br>
+        <h5>How is version control a safety net?</h5><br>
+        <p>
+        What if you make a change that breaks your code, but you already saved your file? Version control allows you to go back to the save, and correct your mistake. Git also allows you to create "branches" of your work. The main, default branch is called "master." Think of branches as different "lines of work." Let's say you're working on a file, a recipe called applepie.txt. But it turns out you want another version of this recipe. You have an existing recipe on the master branch, and it's a recipe that calls for lots of cinammon crumble on top of the pie. But you decide you want one with less of the crumble, something more traditional. You can use git to go back to your most recent commit, and create a new branch. From this new branch, you can edit the recipe to your liking, save the commit, and voila! Now you have two different working versions of your applepie.txt. If you decide to keep the original recipe and scrap the one on the new branch, you can remove the file from the new branch by running git rm --cached applepie.txt. To delete the new branch, you can simply run git branch -d name_of_branch
+        </p><br>
+        <p>
+        In general, I think I've had the most difficulty with the concept of unstaging. There are certain commands you can use for specific purposes. To unstage a file from the staging area, run git reset HEAD filename
+        To discard changes in your working directory, run git checkout -- filename
+        Let's say you messed up big time, but haven't committed your change yet. You can return to the previous state entirely by running git reset --hard HEAD. Knowing these commands will take a while to memorize, but it helps to have a cheat sheet handy. Often, git will tell you what you can do right from the command line!
+       </p><br>
+       <h5>Working with GitHub</h5><br>
+       <p>
+        If you're working with others, or just want your files or code to be on the Internet, GitHub is your friend. GitHub hosts areas for your files called repositories. Repositories are the same areas you work with in Git (sorry, I forgot to mention that above!). To add your updated (committed) files to GitHub, you do what's called a "git push" to GitHub. You have to push to GitHub manually, otherwise GitHub has no other way of knowing what's going on with your local files. The command is git push name_of_remote_branch name_of_your_local_branch. GitHub is an incredible tool for collaboration in that it eliminates the need for sending files back and forth. A team of programmers can work on a project simultaneously, pushing their edits to GitHub, and have them "merged" to the master branch through a special request called a pull request. A pull request is basically a way of saying, "Hey, I made this change. Please take a look at it and let me know if you approve. If you do, please merge it!" Files are typically merged to a "master" branch, where all the final, permanent, working code is kept.
+       </p><br>
+       <p>
+       Git and GitHub are powerful tools you can use to make your work environment more efficient, smoother, and just...more fun! I only just touched the surface of what they can do, but this was just a quick overview of some of the more basic functions.
+       </p>
+       <p>
+      Hope all of this made some sense. Thanks for reading!
+      </p>
+       </div>
+
+    <div class="bottom_h"></div>
+    </div>
+
+</div>
+    <div id="footer">
+    <footer>
+        <p>some text, linked in, github, twitter</p>
+       <a href="https://github.com/ChristineSchatz/"><i class="fa fa-github"></i></a>
+       <a href="https://www.linkedin.com/in/christineschatz"><i class="fa fa-linkedin-square"></i></a>
+       <a href="https://twitter.com/theloopla"><i class="fa fa-twitter"></i></a>
+      </footer>
+
+    </div>
+
+</div>
+</html>
+
+
+
+
+
+
+

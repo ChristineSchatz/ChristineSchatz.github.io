@@ -8,6 +8,11 @@ h2 {
   color: black;
 }
 
+#date {
+  font-style: italic;
+
+}
+
 p {
   color: black;
   font-family: 'Lato', Open-Sans, sans-serif;
@@ -22,7 +27,7 @@ p {
 #page_content {
     /*padding-left: 50px;*/
     margin:0 auto;
-    width: 700px;
+    width: 800px;
     height: 400px;
     position: relative;
     color: black;
