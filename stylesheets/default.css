@@ -1,16 +1,56 @@
-/* CSS for christineschatz.github.io */
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
 
 body {
+    background-color: #FFFFFF;
+    height: 100%;
    font-family: 'Lato', sans-serif;
    font-size: 1.5em;
    background-image: url("../stormk.jpg");
-   display: block;
+   /*display: block;*/
+   margin: 0;
+   padding: 0;
+   height: 100%;
    color: #FFFFFF;
+}
+
+#header {
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    background: #00CCCC;
+    border-bottom-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    z-index: 100;
+    opacity: .70;
+}
+
+.my_blurb {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Courier, sans-serif;
+    font-size: 1.6em;
+    font-weight: normal;
+    border: 1px solid #F68D1C;
+    padding: 10px;
+}
+
+.blurb {
+    margin-left: 5px;
+    margin-top: 5px;
+    color: #FFFFFF;
+    font-family: 'Lato', Open-Sans, sans-serif;
+    font-size: 0.6em;
 }
 
 nav ul {
   margin-top: 20px;
   padding: 10px;
+  text-align: right;
 }
 
 nav ul li {
@@ -31,60 +71,56 @@ a:visited {
 a:hover {
   color: black;
 }
-#name {
-  margin-left: 10px;
-  margin-top: 20px;
-  font-size: 40px;
-  padding: 5px;
-  font-family: Courier;
-  color: #FFFFFF;
-  border: 1px solid #FF9933;
-  background-color: #F68D1C;
-}
-
-#blurb {
-  margin-left: 20px;
-  color: #FFFFFF;
-  margin-top: 60px;
-}
 
 #footer {
-  width: 90%;
-  display: block;
-  position: static;
-  margin-left:10px;
-  margin-top: 280px;
-  padding: 0%;
-  float: left;
-  text-align: right;
-  color: #FFFFFF;
+    position: fixed;
+    bottom: 0px;
+    height: 60px;
+    width: 100%;
+    text-align: right;
+    margin: 0px;
+    border-top-color: #ffffff;
+    border-top-style: solid;
+    border-top-width: 1px;
+    z-index: 1000;
 }
 
-.box1 {
-  display: block;
-  float:left;
-  width: 40%;
-  margin:0%;
-  padding: 0%;
+footer p {
+    color: #FFFFFF;
 }
 
-.box2 {
-  display: block;
-  float:left;
-  width: 60%;
-  position: absolute;
-  margin-left: 500px;
+#wrap {
+    position: relative;
+    height: 100%;
 }
 
-/* responsive css */
-@media only screen and (max-width: 1300px) {
-   footer {
-    margin-top: 280px;
-   }
+#wrap_content {
+
 }
 
-@media only screen and (max-width: 2200px) {
-  footer {
-    margin-top: 370px;
-  }
+.undef {
+    width: 100%;
 }
+
+.top_h {
+    height: 100px;
+}
+
+.bottom_h {
+    height: 60px;
+}
+
+#home_content {
+    /*padding-left: 50px;*/
+    margin:0 auto;
+    width: 450px;
+    height: 400px;
+    position: relative;
+    color: black;
+    background-color: transparent;
+    /*float: left;*/
+    overflow: scroll;
+    border-radius: 5px;
+}
+
+
