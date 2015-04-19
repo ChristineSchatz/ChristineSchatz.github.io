@@ -1,2 +1,33 @@
 /* CSS for blog template */
 
+h4, h3 {
+  color: purple;
+}
+
+h2 {
+  color: black;
+}
+
+p {
+  color: black;
+  font-family: 'Lato', Open-Sans, sans-serif;
+  font-size: 0.6em;
+}
+
+
+.blogcontent {
+  padding: 10px;
+}
+
+#page_content {
+    /*padding-left: 50px;*/
+    margin:0 auto;
+    width: 700px;
+    height: 400px;
+    position: relative;
+    color: black;
+    background-color: #FFFFFF;
+    /*float: left;*/
+    overflow: scroll;
+    border-radius: 15px;
+}
