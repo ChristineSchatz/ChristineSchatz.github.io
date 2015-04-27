@@ -48,7 +48,7 @@
         <p>Arrays are indexed by integers, starting at 0. If you wanted to access "Nate Robinson" from the players array, you would do it like so:</p><br>
         <pre>players[1]</pre>
         <br>
-        <p>Ruby has really convenient class methods for Arrays. You can access the first or last element of an array easily by calling:</p><br>
+        <p>Ruby has really convenient class methods for Arrays. You can access the first or last element of an array easily by calling (whatever's after the # symbol is just a comment in Ruby. I just want to show you what will be returned from the method):</p><br>
         <pre>ingredients.first #=> "shrimp" </pre>
         <pre>ingredients.last #=> "cilantro" </pre><br>
         <p>You can even return the first n elements of an array:</p><br>
@@ -60,10 +60,10 @@
 
         <p>Let's move on to hashes for now. While arrays are awesome at keeping your elements organized, hashes are great for a different type of organization. Instead of using integers to access your values, you can use any object type to do so. For example, let's initialize a hash called population. We'll initialize it implicitly, without the "new" keyword.</p>
         <br>
-        <pre>population = {"Tiny Farm Town" #=> 1,000, "Suburban" #=> 20,000, <br>"Gentrified Brooklyn" #=> 1,000,000}</pre><br>
+        <pre>population = {"Tiny Farm Town" => 1,000, "Suburban" => 20,000, <br>"Gentrified Brooklyn" => 1,000,000}</pre><br>
         <p>You can also use what are called symbols as the keys. Symbols are preceded with a colon. You still use "#=>" to point to your value, like so:</p><br>
-        <pre>population = { :tiny_farm #=> 1,000}</pre><br>
-        <p>Or you can do this and forget about the "#=>":</p><br>
+        <pre>population = { :tiny_farm => 1,000}</pre><br>
+        <p>Or you can do this and forget about the "=>":</p><br>
         <pre>population = { tiny_farm: 1000, suburban: 20,000, gentrified_brooklyn:<br>1,000,000}</pre><br>
         <p>You can populate a Hash differently, one by one, like this:</p><br>
         <pre>cities = {}<br>cities[:san_diego] = "college"<br>cities[:los_angeles] = "home"</pre>
