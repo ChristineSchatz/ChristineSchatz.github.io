@@ -33,11 +33,16 @@ p {
     /*padding-left: 50px;*/
     margin:0 auto;
     width: 1000px;
-    height: 400px;
+    /*height: 400px;*/
     position: relative;
     color: black;
     background-color: #FFFFFF;
     /*float: left;*/
     overflow: scroll;
     border-radius: 15px;
+}
+
+#footer {
+   position: relative;
+
 }

@@ -29,22 +29,50 @@ body {
     opacity: .70;
 }
 
-.my_blurb {
+#home_content {
+    /*padding-left: 50px;*/
+    margin:0 auto;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    color: black;
+    background-color: transparent;
+    /*float: left;*/
+    /*overflow: scroll;*/
+
+}
+
+.my_name {
+
     text-align: center;
     color: gray;
     font-family: Courier, sans-serif;
     font-size: 1.6em;
     font-weight: normal;
-    border: 2px solid #F68D1C;
+    /*border: 2px solid #F68D1C;*/
     padding: 10px;
+
 }
 
-.blurb {
-    margin-left: 5px;
+#blurb {
+    /*margin-left: 5px;*/
+    width: 400px;
+    height: 400px;
     margin-top: 5px;
+    padding-left: 300px;
     color: gray;
     font-family: 'Raleway', Open-Sans, sans-serif;
     font-size: 0.6em;
+    float: left;
+}
+
+#bio {
+  padding-top: 10px;
+}
+
+#myphoto {
+    float: right;
+    padding-right: 165px;
 }
 
 nav ul {
@@ -87,7 +115,7 @@ a:hover {
 }
 
 footer p {
-    color: #FFFFFF;
+    color: #00CCCC;
 }
 
 #wrap {
@@ -111,17 +139,6 @@ footer p {
     height: 60px;
 }
 
-#home_content {
-    /*padding-left: 50px;*/
-    margin:0 auto;
-    width: 500px;
-    height: 400px;
-    position: relative;
-    color: black;
-    background-color: transparent;
-    /*float: left;*/
-    overflow: scroll;
-    border-radius: 5px;
-}
+
 
 
