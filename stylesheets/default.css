@@ -114,7 +114,7 @@ a:hover {
     z-index: 1000;
 }
 
-footer p {
+footer p, a {
     color: #00CCCC;
 }
 
