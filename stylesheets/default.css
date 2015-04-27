@@ -9,7 +9,7 @@ body {
     height: 100%;
    font-family: 'Raleway', sans-serif;
    font-size: 1.5em;
-   background-image: url("../stormk.jpg");
+   background-image: url("../upfeathers.png");
    /*display: block;*/
    margin: 0;
    padding: 0;
@@ -31,18 +31,18 @@ body {
 
 .my_blurb {
     text-align: center;
-    color: #FFFFFF;
+    color: gray;
     font-family: Courier, sans-serif;
     font-size: 1.6em;
     font-weight: normal;
-    border: 1px solid #F68D1C;
+    border: 2px solid #F68D1C;
     padding: 10px;
 }
 
 .blurb {
     margin-left: 5px;
     margin-top: 5px;
-    color: #FFFFFF;
+    color: gray;
     font-family: 'Raleway', Open-Sans, sans-serif;
     font-size: 0.6em;
 }
@@ -64,6 +64,7 @@ a {
   text-decoration: none;
 }
 
+
 a:visited {
   color: #FFFFFF;
 }
@@ -75,9 +76,9 @@ a:hover {
 #footer {
     position: fixed;
     bottom: 0px;
-    height: 60px;
+    height: 50px;
     width: 100%;
-    text-align: right;
+    text-align: center;
     margin: 0px;
     border-top-color: #ffffff;
     border-top-style: solid;
@@ -113,7 +114,7 @@ footer p {
 #home_content {
     /*padding-left: 50px;*/
     margin:0 auto;
-    width: 450px;
+    width: 500px;
     height: 400px;
     position: relative;
     color: black;
