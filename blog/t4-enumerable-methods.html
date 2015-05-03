@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CHRISTINE SCHATZ - blog</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+</head>
+<div id="wrap">
+
+    <div id="header">
+<nav>
+        <ul>
+          <a href="../index.html"><li>ABOUT</li></a>
+          <a href="../blog-home.html"><li>BLOG</li></a>
+          <a href="#"><li>PROJECTS</li></a>
+          <a href="#"><li>RESUME</li></a>
+        </ul>
+    </div>
+
+    <div class="undef">
+        <div class="top_h"></div>
+
+    <div id="menu">
+
+      </nav>
+
+    <div class="bottom_h"></div>
+
+ </div>
+
+    <div id="page_content">
+      <div class="blogcontent">
+        <h4>Enumerables</h4>
+        <h5>The Map method</h5>
+        <p id="date">May 3, 2015</p><br>
+        <p> I was interested in the <span class="emphasis">map</span> method and its similarities to another popular
+          Ruby enumerable: <span class="emphasis">each</span>. Both methods execute a given block for each element of an array or hash, but map actually returns a new
+          array. I'll demonstrate two use examples.
+        </p><br>
+
+        <p>Example 1: Let's say we have a hash called <span class="emphasis">artists</span> and we wanted to print out all the artists whose genre is "hip hop." You would use the following block to iterate through your hash with the desired results:</p><br>
+
+        <img src="../blog_photos/mapexample2.png" />
+        <br><br>
+        <p>Not only will the our map example here print the artists who correspond to hip
+          hop, but it will also return a new array of what was executed from the block, hence
+          the returned array of: <span class="emphasis"># => [nil, nil, "Gangstarr", nil, nil, "Quasimoto", nil]</span>. Pretty cool, huh? The each method will do the same thing, but it will return the original array (or hash).
+        </p><br>
+
+        <p>Example 2: Another use of map involves simple operations. I was inspired by a
+          fun example using food and calories. I modified mine for desserts and grams of
+          sugar. We can use <span class="emphasis">map</span> to divide each value in half, where the key is the dessert,
+          and the value is the amount of sugar in grams. Check it out:
+        </p><br>
+
+        <img src="../blog_photos/mapexample3.png" />
+        <br><br>
+        <p>This example returned an array containing a set of two-item arrays, each of
+          which corresponded to the key/value pair in our grams_sugar hash.</p><br>
+        <p>That's all for now. Hope you learned something! :-)
+       </div>
+
+    <div class="bottom_h"></div>
+    </div>
+
+</div>
+    <div id="footer">
+    <footer>
+        <p>some text, linked in, github, twitter</p>
+       <a href="https://github.com/ChristineSchatz/"><i class="fa fa-github"></i></a>
+       <a href="https://www.linkedin.com/in/christineschatz"><i class="fa fa-linkedin-square"></i></a>
+       <a href="https://twitter.com/theloopla"><i class="fa fa-twitter"></i></a>
+      </footer>
+
+    </div>
+
+</div>
+</html>

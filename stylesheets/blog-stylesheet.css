@@ -1,7 +1,7 @@
 /* CSS for blog template */
 
 h4, h3 {
-  color: purple;
+  color: #D04103;
 }
 
 h2 {
@@ -12,6 +12,14 @@ h2 {
   color: black;
 }
 
+.emphasis {
+  color: #1BA2CB;
+  font-family: 'Courier', Open-Sans, sans-serif;
+}
+
+li {
+ list-style-type: none;
+}
 
 #date {
   font-style: italic;
@@ -21,18 +29,18 @@ h2 {
 p {
   color: black;
   font-family: 'Raleway', Open-Sans, sans-serif;
-  font-size: 0.6em;
+  font-size: 0.7em;
 }
 
 
 .blogcontent {
-  padding: 10px;
+  padding: 40px;
 }
 
 #page_content {
     /*padding-left: 50px;*/
     margin:0 auto;
-    width: 1000px;
+    width: 75%;
     /*height: 400px;*/
     position: relative;
     color: black;
