@@ -8,9 +8,6 @@ h2 {
   color: black;
 }
 
-.blog_link {
-  color: black;
-}
 
 .emphasis {
   color: #1BA2CB;
@@ -26,10 +23,22 @@ li {
 
 }
 
+#link_blog {
+  margin: 0 auto;
+  width: 500px;
+  border-top: 1px solid orange
+}
+
+#link_blog a {
+  color: #1BA2CB;
+  font-size: 0.7em;
+}
+
 p {
   color: black;
   font-family: 'Raleway', Open-Sans, sans-serif;
   font-size: 0.7em;
+  text-align: justify;
 }
 
 
