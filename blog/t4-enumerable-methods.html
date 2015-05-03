@@ -36,9 +36,7 @@
         <h4>Enumerables</h4>
         <h5>The Map method</h5>
         <p id="date">May 3, 2015</p><br>
-        <p> I was interested in the <span class="emphasis">map</span> method and its similarities to another popular
-          Ruby enumerable: <span class="emphasis">each</span>. Both methods execute a given block for each element of an array or hash, but map actually returns a new
-          array. I'll demonstrate two use examples.
+        <p> The <span class="emphasis">Enumerable</span> module in Ruby is probably the reason a lot of Ruby developers don't rely on the for loop much. I'm pretty accustomed to using the for loop, and this is why I still get thrown for a loop (sorry) with enumerables. But I'm learning to love them! They provide really convenient ways to traverse, search, sort, and manipulate collections. Here, I'm going to look at the <span class="emphasis">map</span> method. The map method executes a given block for each element of an array or hash, and will actually return a new array. It will not, however, manipulate the original array unless you use <span class="emphasis">map!</span>, which indicates it's destructible (we won't get into that for now). I'll demonstrate two use examples.
         </p><br>
 
         <p>Example 1: Let's say we have a hash called <span class="emphasis">artists</span> and we wanted to print out all the artists whose genre is "hip hop." You would use the following block to iterate through your hash with the desired results:</p><br>
