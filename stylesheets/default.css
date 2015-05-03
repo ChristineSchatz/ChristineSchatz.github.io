@@ -29,23 +29,38 @@ body {
     opacity: .70;
 }
 
-#home_content {
+/*#home_content {
     /*padding-left: 50px;*/
-    margin:0 auto;
+    /*margin:0 auto;
     width: 100%;
     height: 500px;
     position: relative;
     color: black;
-    background-color: transparent;
+    background-color: transparent;*/
     /*float: left;*/
     /*overflow: scroll;*/
 
+/*}*/
+
+#home_content {
+    /*padding-left: 50px;*/
+    margin:0 auto;
+    width: 50%;
+    height: 400px;
+    /*height: 400px;*/
+    position: relative;
+    color: black;
+    background-color: #FFFFFF;
+    opacity: .80;
+    /*float: left;*/
+    /*overflow: scroll;*/
+    border-radius: 15px;
 }
 
 .my_name {
 
     text-align: center;
-    color: gray;
+    color: orange;
     font-family: Courier, sans-serif;
     font-size: 1.6em;
     font-weight: normal;
@@ -57,23 +72,23 @@ body {
 #blurb {
     /*margin-left: 5px;*/
     width: 400px;
-    height: 400px;
-    margin-top: 5px;
-    padding-left: 300px;
+    height: 300px;
+    margin: 0 auto;
     color: gray;
     font-family: 'Raleway', Open-Sans, sans-serif;
     font-size: 0.6em;
-    float: left;
+    /*float: left;*/
 }
 
 #bio {
   padding-top: 10px;
 }
 
-#myphoto {
-    float: right;
-    padding-right: 165px;
-}
+/*#myphoto {
+    /*float: right;*/
+    /*padding-right: 165px;
+
+}*/
 
 nav ul {
   margin-top: 20px;
@@ -106,7 +121,7 @@ a:hover {
 }
 
 #footer {
-    position: fixed;
+    position: relative; /* formerly fixed!*/
     bottom: 0px;
     height: 50px;
     width: 100%;
@@ -118,7 +133,10 @@ a:hover {
     z-index: 1000;
 }
 
-
+h4 {
+  font-family: 'Courier', Open-Sans, sans-serif;
+  font-weight: normal;
+}
 
 #wrap {
     position: relative;
