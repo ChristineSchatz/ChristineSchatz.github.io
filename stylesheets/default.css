@@ -9,7 +9,7 @@ body {
     height: 100%;
    font-family: 'Raleway', sans-serif;
    font-size: 1.5em;
-   background-image: url("../upfeathers.png");
+   background-image: url("../subtle_white_mini_waves.png");
    /*display: block;*/
    margin: 0;
    padding: 0;
@@ -55,6 +55,7 @@ body {
     /*float: left;*/
     /*overflow: scroll;*/
     border-radius: 15px;
+    margin-bottom: 30px;
 }
 
 .my_name {
