@@ -128,9 +128,9 @@ a:hover {
     width: 100%;
     text-align: center;
     margin: 0px;
-    border-top-color: #ffffff;
+    /*border-top-color: #ffffff;
     border-top-style: solid;
-    border-top-width: 1px;
+    border-top-width: 1px;*/
     z-index: 1000;
     padding: 10px;
 }
@@ -157,9 +157,9 @@ h4 {
     height: 100px;
 }
 
-.bottom_h {
+/*.bottom_h {
     height: 60px;
-}
+}*/
 
 
 
