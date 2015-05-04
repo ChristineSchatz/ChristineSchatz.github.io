@@ -132,6 +132,7 @@ a:hover {
     border-top-style: solid;
     border-top-width: 1px;
     z-index: 1000;
+    padding: 10px;
 }
 
 h4 {
