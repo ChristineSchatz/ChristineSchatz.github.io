@@ -8,6 +8,10 @@ h2 {
   color: black;
 }
 
+h6 {
+  border-bottom: 1px solid gray;
+  padding: 4px;
+}
 
 .emphasis {
   color: #1BA2CB;
@@ -16,6 +20,7 @@ h2 {
 
 li {
  list-style-type: none;
+
 }
 
 #date {

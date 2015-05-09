@@ -9,24 +9,26 @@ body {
     height: 100%;
    font-family: 'Raleway', sans-serif;
    font-size: 1.5em;
-   background-image: url("../subtle_white_mini_waves.png");
+   background-image: url("../ps.jpg");
    /*display: block;*/
    margin: 0;
    padding: 0;
    height: 100%;
-   color: #FFFFFF;
+   color: black;
 }
 
 #header {
     position: absolute;
     height: 80px;
     width: 100%;
-    background: #00CCCC;
+    /*background: #00CCCC;*/
+    background: #FFFFFF;
+    color: #0000FF;
     border-bottom-color: #ffffff;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     z-index: 100;
-    opacity: .70;
+    opacity: .90;
 }
 
 /*#home_content {
@@ -49,9 +51,9 @@ body {
     height: 400px;
     /*height: 400px;*/
     position: relative;
-    color: black;
+    color: #FFFFFF;
     background-color: #FFFFFF;
-    opacity: .80;
+    /*opacity: .90;*/
     /*float: left;*/
     /*overflow: scroll;*/
     border-radius: 15px;
@@ -61,12 +63,13 @@ body {
 .my_name {
 
     text-align: center;
-    color: orange;
+    color: #01B5AA;
     font-family: Courier, sans-serif;
     font-size: 1.6em;
     font-weight: normal;
     /*border: 2px solid #F68D1C;*/
     padding: 10px;
+
 
 }
 
@@ -75,7 +78,7 @@ body {
     width: 400px;
     height: 300px;
     margin: 0 auto;
-    color: gray;
+    color: black;
     font-family: 'Raleway', Open-Sans, sans-serif;
     font-size: 0.6em;
     /*float: left;*/
@@ -94,17 +97,18 @@ body {
 nav ul {
   margin-top: 20px;
   padding: 10px;
-  text-align: right;
+  text-align: center;
 }
 
 nav ul li {
+
   display: inline;
   margin: 30px;
   font-weight: bold;
 }
 
 a {
-  color: #FFFFFF;
+  color: #01B5AA;
   text-decoration: none;
 }
 
@@ -114,11 +118,11 @@ img {
 }
 
 a:visited {
-  color: #FFFFFF;
+  color: #01B5AA;
 }
 
 a:hover {
-  color: black;
+  color: red;
 }
 
 #footer {
@@ -149,17 +153,17 @@ h4 {
 
 }
 
-.undef {
+/*.undef {
     width: 100%;
 }
+*/
+
 
 .top_h {
-    height: 100px;
+  width:100%;
+  height: 150px;
+  /*background-image: url("../fabric17.jpg");*/
 }
-
-/*.bottom_h {
-    height: 60px;
-}*/
 
 .fa fa-github fa-2x {color: gray;}
 .fa fa-linkedin-square fa-2x {color: gray;}
