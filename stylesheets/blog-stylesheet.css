@@ -18,9 +18,15 @@ h6 {
   font-family: 'Courier', Open-Sans, sans-serif;
 }
 
+.strategies {
+  font-size: 0.7em;
+  font-family: 'Courier', Open-Sans, sans-serif;
+  color: red;
+
+}
+
 li {
  list-style-type: none;
-
 }
 
 #date {
