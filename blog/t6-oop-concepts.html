@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CHRISTINE SCHATZ - blog</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+</head>
+<div id="wrap">
+
+    <div id="header">
+<nav>
+        <ul>
+          <a href="../index.html"><li>ABOUT</li></a>
+          <a href="../blog-home.html"><li>BLOG</li></a>
+          <a href="#"><li>PROJECTS</li></a>
+          <a href="#"><li>RESUME</li></a>
+        </ul>
+    </div>
+
+    <div class="undef">
+        <div class="top_h"></div>
+
+    <div id="menu">
+
+      </nav>
+
+    <div class="bottom_h"></div>
+
+ </div>
+
+    <div id="page_content">
+      <div class="blogcontent">
+        <h4>Blocks, Procs, and Lambdas</h4>
+        <h5>Also known as "closures"</h5>
+        <p id="date">May 17, 2015</p>
+        <br>
+        <p> In computer science, Ruby <span class="emphasis">blocks, procs,</span> and <span class="emphasis">lambdas</span>, are basically known as closures. In Ruby, we've already seen one of them many times: <span class="emphasis">blocks</span>! Whenever we use an enumerable, such as each or map, we are sending a block of code to the Array or object we are calling the enumberable method on. For example, our block here is the code between the brackets:
+        </p><br>
+        <img src="../blog_photos/block.png" /><br>
+        <h5>What's up with Procs?</h5><br>
+        <p><span class="emphasis">Procs</span>, aka Procedures, come in handy when we want to use a block over and over again. We don't want to have to repeat ourselves, so we can actually save a reusable chunk of code as an object itself, which is a <span class="emphasis">Proc</span>! Technically, a block is a <span class="emphasis">Proc</span> (and a <span class="emphasis">Proc</span> is a block?! yes), but it's a "reduced," temporary version that makes it easy for us to use methods like each and select. Procs are the real deal - think of them as more permanent, portable chunks of code. You can save <span class="emphasis">Procs</span> to a variable, like so:</p><br>
+        <img src="../blog_photos/proc.png" /><br>
+        <h5>Lambdas!</h5><br>
+        <p>Lastly, we have <span class="emphasis">lambdas</span>, which we'll see a little less typically. Lambdas are basically functions. They are comparable to what's known as the anonymous function in JavaScript. They check the number of arguments passed and their last expression is a return value. Returns will <span class="emphasis">return</span> only from the lambda itself, not from the method it's enclosed in (if it's enclosed in a method at all). Let's say we have an area in our code where we want to return 5 if our made up game needed our flavor to be "cherry": </p><br>
+        <img src="../blog_photos/lambda.png" /><br>
+        <p>This lambda will return 5 since our argument is indeed "cherry." I'll stop here. We won't be using these concepts for a while, but I learned a little about each and hope you did, too!</p>
+       </div>
+
+    <div class="bottom_h"></div>
+    </div>
+
+</div>
+     <div id="footer">
+    <footer>
+       <a href="https://github.com/ChristineSchatz/"><i class="fa fa-github fa-2x"></i></a>
+       <a href="https://www.linkedin.com/in/christineschatz"><i class="fa fa-linkedin-square fa-2x"></i></a>
+       <a href="https://twitter.com/theloopla"><i class="fa fa-twitter fa-2x"></i></a>
+      </footer>
+
+    </div>
+
+</div>
+</html>
