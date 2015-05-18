@@ -8,6 +8,11 @@ h2 {
   color: black;
 }
 
+h5 {
+  color: #694489;
+}
+
+
 h6 {
   border-bottom: 1px solid gray;
   padding: 4px;
