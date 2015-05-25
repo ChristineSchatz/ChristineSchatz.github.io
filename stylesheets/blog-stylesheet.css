@@ -9,7 +9,7 @@ h2 {
 }
 
 h5 {
-  color: #694489;
+  color: black;
 }
 
 
@@ -39,13 +39,13 @@ li {
 
 }
 
-#link_blog {
+.blog_list {
   margin: 0 auto;
   width: 500px;
   border-top: 1px solid orange
 }
 
-#link_blog a {
+.blog_list a {
   color: #1BA2CB;
   font-size: 0.7em;
 }
