@@ -10,7 +10,7 @@ body {
    font-family: 'Lato', sans-serif;
    font-family: 'Muli', sans-serif;
    font-size: 1.5em;
-   /*background-image: url("../ps.jpg");*/
+   background-image: url("../palm_trees.jpg");
    background-attachment: fixed;
    /*display: block;*/
    margin: 0;
@@ -49,7 +49,7 @@ body {
 #home_content {
     /*padding-left: 50px;*/
     margin:0 auto;
-    width: 50%;
+    width: 100%;
     height: 400px;
     /*height: 400px;*/
     position: relative;
@@ -58,14 +58,15 @@ body {
     /*opacity: .90;*/
     /*float: left;*/
     /*overflow: scroll;*/
-    border-radius: 15px;
+    /*border-radius: 15px;*/
     margin-bottom: 30px;
 }
 
 .my_name {
 
     text-align: center;
-    color: #01B5AA;
+    /*color: #01B5AA;*/
+    color:white;
     font-family: Courier, sans-serif;
     font-size: 1.6em;
     font-weight: normal;
@@ -168,10 +169,15 @@ h4 {
 }
 */
 
+/*.bottom_h {
+  width: 100%;
+  height: 50px;
+}*/
+
 
 .top_h {
   width:100%;
-  height: 150px;
+  height: 100px;
   /*background-image: url("../fabric17.jpg");*/
 }
 
