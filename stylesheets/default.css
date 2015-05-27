@@ -10,7 +10,7 @@ body {
    font-family: 'Lato', sans-serif;
    font-family: 'Muli', sans-serif;
    font-size: 1.5em;
-   background-image: url("../palm_trees.jpg");
+   /*background-image: url("../palm_trees.jpg");*/
    background-attachment: fixed;
    /*display: block;*/
    margin: 0;
@@ -66,7 +66,7 @@ body {
 
     text-align: center;
     /*color: #01B5AA;*/
-    color:white;
+    color: orange;
     font-family: Courier, sans-serif;
     font-size: 1.6em;
     font-weight: normal;
@@ -178,7 +178,6 @@ h4 {
 .top_h {
   width:100%;
   height: 100px;
-  /*background-image: url("../fabric17.jpg");*/
 }
 
 

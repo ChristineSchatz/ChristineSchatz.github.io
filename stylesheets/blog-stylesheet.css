@@ -1,7 +1,8 @@
 /* CSS for blog template */
 
 h4, h3 {
-  color: #D04103;
+  /*color: #D04103;*/
+  color:orange;
   text-align: center;
 }
 
