@@ -81,6 +81,11 @@ body {
     /*float: left;*/
 }
 
+#blurb a {
+  display: inline;
+  text-align: center;
+}
+
 #bio {
   padding-top: 10px;
 }
