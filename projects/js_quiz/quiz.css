@@ -1,0 +1,72 @@
+/*
+ styles for 80squiz
+*/
+
+h1 {
+      border-bottom: 1px solid black;
+      margin-bottom: 10px;
+      padding: 2px;
+      font-family: Helvetica, Georgia, sans-serif;
+      text-align: left;
+      color: #9932CC;
+      letter-spacing: 0.1em
+    }
+
+body {
+     background-image:url('mesh.png');
+     background-repeat:repeat-x;
+     background-position: center left;
+     background-color: #F8F8F8
+   }
+
+p   {
+     font-family: 'Lato', sans-serif;
+    }
+
+td  {
+    padding: 5px;
+    vertical-align: top;
+    font-size: 11pt;
+    font-family: 'Lato', sans-serif;
+  }
+
+td p  {
+     margin: 0px;
+     font-size: 11pt
+  }
+
+img  {
+    float:right;
+    width: 400px
+}
+
+p.example {
+     float: right;
+     clear:both;
+     font-size: 8pt;
+     font-style: italic
+}
+
+label.labels { font-size: 10pt }
+td.output { font-size: 10pt }
+
+#ans {
+  float:right;
+  clear: both;
+  font-size: 10pt
+}
+
+#buttons input {
+  margin: 0px 5px;
+  color: black;
+  background-color: rgb(255, 255, 0)
+}
+
+#main {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+
+

@@ -1,0 +1,29 @@
+/* CSS for projects */
+
+#project_wrapper {
+  width: 700px;
+  margin: 0 auto;
+}
+
+h3 {
+  color: #9932CC;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.project_grid {
+  width: 300px;
+  height: 210px;
+  display: inline-block;
+}
+
+.project_description {
+  width: 300px;
+  height: 210px;
+  display: inline-block;
+  float: right;
+}

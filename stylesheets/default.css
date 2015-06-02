@@ -22,7 +22,7 @@ body {
 }
 
 #header {
-    position: absolute;
+    position: fixed;
     height: 80px;
     width: 100%;
     /*background: #00CCCC;*/
