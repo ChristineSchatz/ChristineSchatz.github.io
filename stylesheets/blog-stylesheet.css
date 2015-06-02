@@ -1,5 +1,11 @@
 /* CSS for blog template */
 
+body {
+   background-image: url("../subtle_white_mini_waves.png");
+   background-repeat: repeat;
+
+}
+
 h4, h3 {
   /*color: #D04103;*/
   color:orange;
