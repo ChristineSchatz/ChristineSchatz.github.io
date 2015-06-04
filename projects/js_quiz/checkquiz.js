@@ -1,21 +1,20 @@
 /*
 
    Functions list:
-   beginQuiz()
+
    checkQuiz()
-   clearForm()
    scoreQuiz()
 
 */
 
 
-window.onload = beginQuiz;
+//window.onload = beginQuiz;
 
-function beginQuiz()  {
+//function beginQuiz()  {
 
-document.forms[0].onsubmit = checkQuiz;
-document.forms[0].onreset = clearForm;
-}
+//document.forms[0].onsubmit = checkQuiz;
+//document.forms[0].onreset = clearForm;
+//}
 
 function checkQuiz(){
     var checker = false;
@@ -75,21 +74,11 @@ function checkQuiz(){
 	     return false;}
 
 
-	  // if(document.forms[0].name.value.length == 0)
-	  //    {alert("Please enter your full name");
-	  //     return false;}
-
-
-	 //document.forms[0].score.value = scoreQuiz(ans1,ans2,ans3,ans4,ans5);
-	 document.getElementById("score").value = scoreQuiz(ans1,ans2,ans3,ans4,ans5);
+	 scoreQuiz(ans1,ans2,ans3,ans4,ans5);
 	 return true;
 	}
 
 
-
-function clearForm() {
-return confirm('Are you sure you want to reset the form?')
-}
 
 
 function scoreQuiz(a,b,c,d,e) {
@@ -100,8 +89,17 @@ function scoreQuiz(a,b,c,d,e) {
 	if(document.forms[0].question4[d].value == document.forms[0].answer4.value) score++;
 	if(document.forms[0].question5[e].value == document.forms[0].answer5.value) score++;
 
-
-	alert(score + " " + "out of 5")
+	  var message = "";
+	  if (score == 5){
+		  message = "Wow! Good job! You're an 80s movie expert.";
+	  }
+	  else if (score < 5 && score >=3 ) {
+		  message = "Pretty good! You would do well on 80s trivia night.";
+	  }
+	  else {
+		  message = "You must be too young for this quiz.";
+	  }
+	  alert(score + " " + "out of 5. " + message);
 
 	}
 
