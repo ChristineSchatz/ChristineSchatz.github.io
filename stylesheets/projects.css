@@ -110,6 +110,10 @@ a:hover {
 
 }
 
+#main {
+  padding-top: 80px;
+}
+
 
 
 .top_h {
@@ -125,7 +129,7 @@ a:hover {
   margin: 0 auto;
 }
 
-h3 {
+h3, h1 {
   color: #9932CC;
   font-family: 'Lato', sans-serif;
   text-align: left;
