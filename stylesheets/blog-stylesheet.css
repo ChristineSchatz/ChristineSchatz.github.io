@@ -175,6 +175,11 @@ li {
   border-top: 1px solid orange
 }
 
+.blog_list li {
+  font-size: 0.7em;
+  padding-top: 10px;
+}
+
 .blog_list a {
   color: #1BA2CB;
   font-size: 0.7em;
