@@ -10,7 +10,7 @@ body {
    font-family: 'Lato', sans-serif;
    font-family: 'Muli', sans-serif;
    font-size: 1.5em;
-   background-image: url("../blu_stripes.png");
+   background-image: url("../blurred.jpg");
    /*background-attachment: fixed;
    background-repeat: no-repeat;
    background-position: center;*/
@@ -59,14 +59,11 @@ body {
   font-weight: bold;
   text-align: center;
   font-size: 1.5em;
-  padding-top: 50px;
+  padding-top: 15px;
   color: #FFFFFF;
-  box-shadow: 5px;
-  text-shadow: 2px 2px #FF0000;
 }
 
 .my_name {
-    text-shadow: 1px 1px #FF0000;
     text-align: center;
     /*color: #01B5AA;*/
     color:#FFFFFF;
@@ -76,6 +73,10 @@ body {
     font-weight: normal;
     /*border: 2px solid #F68D1C;*/
     padding: 10px;
+}
+
+.emphasis {
+  color: #01B5AA;
 }
 
 #blurb {
