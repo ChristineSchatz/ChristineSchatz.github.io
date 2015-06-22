@@ -59,22 +59,22 @@ body {
   font-weight: bold;
   text-align: center;
   font-size: 1.5em;
-  padding-top: 15px;
+  padding-top: 5px;
   color: gray;
 }
 
- @font-face { font-family: 'SlimJoe'; src: url('Slim Joe.otf'); }
+ @font-face { font-family: 'Slim Joe'; src: url('../fonts/Slim Joe.otf'); }
 
 .my_name {
     text-align: center;
     /*color: #01B5AA;*/
     color:black;
     margin: 0 auto;
-    font-family: 'Muli';
+    font-family: 'Slim Joe';
     font-size: 4.0em;
     font-weight: normal;
     /*border: 2px solid #F68D1C;*/
-    padding: 10px;
+    padding: 5px;
 }
 
 .emphasis {
