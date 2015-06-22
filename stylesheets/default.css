@@ -10,7 +10,7 @@ body {
    font-family: 'Lato', sans-serif;
    font-family: 'Muli', sans-serif;
    font-size: 1.5em;
-   background-image: url("../blurred.jpg");
+   /*background-image: url("../blurred.jpg");*/
    /*background-attachment: fixed;
    background-repeat: no-repeat;
    background-position: center;*/
@@ -60,15 +60,17 @@ body {
   text-align: center;
   font-size: 1.5em;
   padding-top: 15px;
-  color: #FFFFFF;
+  color: gray;
 }
+
+ @font-face { font-family: 'SlimJoe'; src: url('Slim Joe.otf'); }
 
 .my_name {
     text-align: center;
     /*color: #01B5AA;*/
-    color:#FFFFFF;
+    color:black;
     margin: 0 auto;
-    font-family: 'Permanent Marker', sans-serif;
+    font-family: 'SlimJoe';
     font-size: 4.0em;
     font-weight: normal;
     /*border: 2px solid #F68D1C;*/
