@@ -45,7 +45,7 @@ body {
     position: relative;
     color: #FFFFFF;
     margin-bottom: 30px;
-    font-family: Courier, sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 
 /*#blurb p {
@@ -55,7 +55,7 @@ body {
 }*/
 
 .my_bio {
-  font-family: Courier, sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: bold;
   text-align: center;
   font-size: 1.5em;
@@ -70,7 +70,7 @@ body {
     /*color: #01B5AA;*/
     color:black;
     margin: 0 auto;
-    font-family: 'SlimJoe';
+    font-family: 'Muli';
     font-size: 4.0em;
     font-weight: normal;
     /*border: 2px solid #F68D1C;*/
