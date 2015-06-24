@@ -1,0 +1,20 @@
+
+for i in 0..100
+  if (i % 15).zero?
+    i = "FizzBuzz"
+  elsif (i % 3).zero?
+    i = "Fizz"
+  elsif (i % 5).zero?
+    i = "Buzz"
+  else
+    i
+  end
+  p i
+end
+
+# (0..100).each do |num|
+#     p "FizzBuzz" if num % 5 ==0 and num % 3 == 0
+#     p "Fizz" if num % 3 == 0
+#     p "Buzz" if num % 5 == 0
+#     p num
+#  end

@@ -1,0 +1,44 @@
+class BingoBoard
+
+
+  def initialize
+    @bingo_array = ["B","I","N","G","O"]
+    @bingo_board = Array.new(5) { Array.new(5)}
+  end
+
+
+  def generate
+    @letter_index = rand(0..4)
+    @bingo_letter = @bingo_array[@letter_index]
+    @bingo_num = rand(1..100)
+    p "Good luck! We drew: #{@bingo_letter}#{@bingo_num}.Your result for this column is: "
+end
+
+
+def check_column
+  @bingo_board[@letter_index].map! { |num|
+    if num == @bingo_num
+      num = "X"
+    else
+      num
+    end
+  }
+end
+
+
+def display_board
+  p "B   I   N   G    O"
+  @bingo_board.each do |row|
+    p row
+  end
+end
+
+def load_board
+  @bingo_board.each {|col|
+    col.map! {|row|
+      rand(1..100)
+    }
+  }
+end
+
+end

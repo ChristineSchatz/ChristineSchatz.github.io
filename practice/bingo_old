@@ -1,0 +1,10 @@
+def check_column
+  @column = @bingo_board.transpose
+  if @column[@letter_index].include?(@bingo_num)
+  @column[@letter_index][@column[@letter_index].index(@bingo_num)] = "X"
+   end
+  p @column
+  puts
+end # end method
+
+@bingo_board = Array.new(5) {Array.new(5) {rand(0..100)} }
