@@ -121,8 +121,9 @@ a:hover {
 
 h4, h3 {
   /*color: #D04103;*/
-  font-family: Courier, sans-serif;
-  color:orange;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Muli', sans-serif;
+  color:black;
   text-align: center;
 }
 
@@ -131,13 +132,14 @@ h2 {
 }
 
 h5 {
-  color: black;
+  color: gray;
   text-align: center;
 }
 
 
 h6 {
   border-bottom: 1px solid gray;
+  color: gray;
   padding: 4px;
   text-align: center;
 }
