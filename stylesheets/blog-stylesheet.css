@@ -124,6 +124,7 @@ h4, h3 {
   font-family: 'Lato', sans-serif;
   font-family: 'Muli', sans-serif;
   color:black;
+  padding: 5px;
   text-align: center;
 }
 
@@ -138,8 +139,9 @@ h5 {
 
 
 h6 {
-  border-bottom: 1px solid gray;
+  border-bottom: 1px dashed gray;
   color: gray;
+
   padding: 4px;
   text-align: center;
 }
@@ -206,19 +208,24 @@ p {
 
 .blogcontent {
   padding: 40px;
+  width: 75%;
+  margin: 0 auto;
 }
 
-#page_content {
+
+
+#blog_home_content {
     /*padding-left: 50px;*/
+    border: 1px dashed gray;
     margin:0 auto;
-    width: 75%;
+    width: 85%;
     /*height: 400px;*/
     position: relative;
     color: black;
     background-color: #FFFFFF;
     /*float: left;*/
     overflow: scroll;
-    border-radius: 15px;
+
     margin-bottom: 40px;
 }
 

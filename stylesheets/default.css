@@ -10,10 +10,10 @@ body {
    font-family: 'Lato', sans-serif;
    font-family: 'Muli', sans-serif;
    font-size: 1.5em;
-   /*background-image: url("../blurred.jpg");*/
-   /*background-attachment: fixed;
+   background-image: url("../palmtree.jpg");
+   background-attachment: fixed;
    background-repeat: no-repeat;
-   background-position: center;*/
+   background-position: left;
    /*display: block;*/
    margin: 0;
    padding: 0;
@@ -39,7 +39,7 @@ body {
 #home_content {
     /*padding-left: 50px;*/
     margin:0 auto;
-    width: 100%;
+    width: 30%;
     height: 400px;
     padding-top: 60px;
     position: relative;
@@ -48,30 +48,27 @@ body {
     font-family: 'Muli', sans-serif;
 }
 
-/*#blurb p {
-  font-family: Courier, sans-serif;
-  color: #FFFFFF;
-  margin: 0 auto;
-}*/
 
 .my_bio {
   font-family: 'Muli', sans-serif;
+  /*width: 300px;*/
   font-weight: bold;
-  text-align: center;
-  font-size: 1.5em;
+  text-align: left;
+  font-size: 1.3em;
   padding-top: 5px;
   color: gray;
+
 }
 
- @font-face { font-family: 'Slim Joe'; src: url('../fonts/Slim Joe.otf'); }
+ @font-face { font-family: 'Big John'; src: url('../fonts/Big John.otf'); }
 
 .my_name {
-    text-align: center;
+    text-align: left;
     /*color: #01B5AA;*/
-    color:black;
+    color: black;
     margin: 0 auto;
-    font-family: 'Slim Joe';
-    font-size: 4.0em;
+    font-family: 'Big John';
+    font-size: 3.5em;
     font-weight: normal;
     /*border: 2px solid #F68D1C;*/
     padding: 5px;
