@@ -60,14 +60,14 @@ body {
 
 }
 
- @font-face { font-family: 'Big John'; src: url('../fonts/Big John.otf'); }
+ @font-face { font-family: 'Slim Joe'; src: url('../fonts/Slim Joe.otf'); }
 
 .my_name {
     text-align: left;
     /*color: #01B5AA;*/
     color: black;
     margin: 0 auto;
-    font-family: 'Big John';
+    font-family: 'Slim Joe';
     font-size: 3.5em;
     font-weight: normal;
     /*border: 2px solid #F68D1C;*/
