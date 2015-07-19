@@ -3,9 +3,9 @@ $(document).ready(function() {
   var move2 = 0;
 
    $('#begin').on('click',function() {
+    $(this).hide();
      move1 = 0;
      move2 = 0;
-     console.log("WHATS UP")
      $('#playerA').css('margin-left',"0")
      $('#playerB').css('margin-left',"0")
 
@@ -15,7 +15,7 @@ $(document).ready(function() {
           move1 += 2;
           $('#playerA').css('margin-left',move1 + "%") }
           else {
-            alert ("Game over!");
+            alert ("Game over!, Player B wins!");
             $(document).unbind('keyup')
           }
         }
@@ -30,8 +30,5 @@ $(document).ready(function() {
           }
 
         })
-
       })
-
-
     })
