@@ -1,0 +1,47 @@
+body {
+  background-image: url("beach_racer.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.racer_heading {
+  color: white;
+  text-align: center;
+}
+
+
+#playerA {
+  margin-left: 0;
+}
+
+#playerB {
+  margin-left: 0;
+}
+
+#board {
+  position: fixed;
+  bottom: 0;
+  width: 90%;
+}
+
+#begin {
+    margin: 0 auto; /* centers, provided there's a width set */
+  display: block;
+  font-size:20px;
+  font-weight:700;
+  color:#fff;
+  line-height:35px;
+  width:90px; /* width set */
+  text-align:center;
+  background:url(../images/button_form.gif) top repeat-x #308da2;
+  border-radius:10px;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;behavior:url(js/PIE.htc);
+  position:relative;
+  text-decoration:none
+}
