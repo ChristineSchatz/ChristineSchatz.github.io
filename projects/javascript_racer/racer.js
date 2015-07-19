@@ -5,7 +5,7 @@ $(document).ready(function() {
    $('#begin').on('click',function() {
      move1 = 0;
      move2 = 0;
-
+     console.log("WHATS UP")
      $('#playerA').css('margin-left',"0")
      $('#playerB').css('margin-left',"0")
 
