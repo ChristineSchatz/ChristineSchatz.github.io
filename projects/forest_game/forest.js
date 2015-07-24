@@ -1,40 +1,50 @@
-$(document).ready(function() {
-  var move1 = 0;
-  var move2 = 0;
+var score = 0;
 
+$(document).ready(function() {
    $('#begin').on('click',function() {
     $(this).hide();
-     move1 = 0;
-     move2 = 0;
-     $('.deer').css('margin-left',"0")
+
+    $('.deer').toggle("explode");
+
+});
+
+// function deerShow() {
+
+//      $('.deer').each(function() {
+//         var $deer = $(this);
+//         var min = 6000, max = 13000;
+//         var delay = Math.floor(Math.random() * (max-min) + min);
+//         setTimeout(function() {
+//           $deer.animate({
+//             'background-position-x': '0',
+//             'background-position-y': '0'
+//           }, 300, function() {
+//             $deer.addClass('clickable');
+//             deerHide();
+//           });
+//         }, delay);
+//      });
+// }
+
+// function deerHide() {
+//   $('.deer').each(function() {
+//     var $deer = $(this);
+//         var min = 4000, max = 6000;
+//         var delay = Math.floor(Math.random() * (max - min) + min);
+//         setTimeout(function(){
+//             $deer.removeClass('clickable');
+//             $deer.animate({
+//                 'background-position-x': '0',
+//                 'background-position-y': '40px'
+//             }, 300, function() {
+//                 deerShow();
+//             });
+
+//         },  delay);
+//     });
+
+// deerShow();
+// $('.deer').on('click', '.clickable', function() {
 
 
-    $('#track1').on('click', $('.deer'), function(event) {
-      $(this).hide();
-    })
-
-
-
-    // $(document).on('keyup', function(event) {
-    //   if(event.keyCode == 74) {
-    //     if(move1 < 100) {
-    //       move1 += 2;
-    //       $('#playerA').css('margin-left',move1 + "%") }
-    //       else {
-    //         alert ("Game over!, Player B wins!");
-    //         $(document).unbind('keyup')
-    //       }
-    //     }
-    //     if(event.keyCode == 75) {
-    //       if(move2 < 100) {
-    //         move2 += 2;
-    //         $('#playerB').css('margin-left', move2 + "%")}
-    //         else {
-    //           alert("Game over, Player B wins!");
-    //           $(document).unbind('keyup')
-    //         }
-    //       }
-
-    //     })
-      })
-    })
+});
