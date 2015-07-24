@@ -6,8 +6,8 @@ $(document).ready(function() {
     $(this).hide();
      move1 = 0;
      move2 = 0;
-     $('#playerA').css('margin-left',"0")
-     $('#playerB').css('margin-left',"0")
+     $('.deer').css('margin-left',"0")
+
 
     $('#track1').on('click', $('.deer'), function(event) {
       $(this).hide();
