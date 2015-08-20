@@ -7,12 +7,10 @@
 }
 
 body {
-    /*background-color: #FFFFFF;*/
-    height: 100%;
+   height: 100%;
    font-family: 'Lato', sans-serif;
    font-family: 'Muli', sans-serif;
    font-size: 1.5em;
-   /*display: block;*/
    margin: 0;
    padding: 0;
    height: 100%;
@@ -23,7 +21,6 @@ body {
     position: fixed;
     height: 80px;
     width: 100%;
-    /*background: #00CCCC;*/
     background: #FFFFFF;
     color: #0000FF;
     border-bottom-color: #ffffff;
@@ -33,30 +30,24 @@ body {
     opacity: 100;
 }
 
-
-
 #left {
   float: left;
-
 }
+
 #right {
   float: right;
   padding: 10px;
 }
+
 #bio {
   padding-top: 10px;
 }
 
-
-
 nav ul {
   margin-top: 20px;
-
-  /*/text-align: center;*/
 }
 
 nav ul li {
-
   display: inline;
   margin: 30px;
   font-weight: bold;
@@ -68,8 +59,8 @@ a {
 }
 
 img {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
 iframe {
@@ -86,16 +77,12 @@ a:hover {
 }
 
 #footer {
-    position: relative; /* formerly fixed!*/
+    position: relative;
     bottom: 0px;
     height: 50px;
     width: 100%;
     text-align: center;
     margin: 0px;
-    /*background-color: white;*/
-    /*border-top-color: #ffffff;
-    border-top-style: solid;
-    border-top-width: 1px;*/
     z-index: 1000;
     padding: 10px;
 }
@@ -114,8 +101,6 @@ a:hover {
   padding-top: 80px;
 }
 
-
-
 .top_h {
   width:100%;
   height: 100px;
@@ -124,7 +109,7 @@ a:hover {
 
 /* projects customization starts here */
 
-#project_wrapper {
+#project-wrapper {
   width: 700px;
   margin: 0 auto;
 }
@@ -139,15 +124,19 @@ h3, h1 {
   font-weight: bolder;
 }
 
-.project_grid {
+.project-grid {
   width: 300px;
   height: 210px;
   display: inline-block;
 }
 
-.project_description {
+.project-description {
   width: 300px;
   height: 210px;
   display: inline-block;
   float: right;
+}
+
+.project-break {
+  padding: 10px;
 }
