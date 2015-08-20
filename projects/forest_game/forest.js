@@ -4,7 +4,10 @@ $(document).ready(function() {
    $('#begin').on('click',function() {
     $(this).hide();
 
-    $('.deer').toggle("explode");
+    $(window).click(function(event) {
+      $(event.target).toggle("explode");
+      event.stopPropagation();
+    });
 
 });
 
