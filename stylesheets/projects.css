@@ -6,6 +6,19 @@
     border: none;
 }
 
+#header {
+    /*position: fixed;*/
+    /*height: 80px;*/
+    width: 100%;
+    background: #FFFFFF;
+    color: #0000FF;
+    border-bottom-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    z-index: 100;
+    opacity: 100;
+}
+
 body {
    height: 100%;
    font-family: 'Lato', sans-serif;
@@ -17,18 +30,7 @@ body {
    color: black;
 }
 
-#header {
-    position: fixed;
-    height: 80px;
-    width: 100%;
-    background: #FFFFFF;
-    color: #0000FF;
-    border-bottom-color: #ffffff;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    z-index: 100;
-    opacity: 100;
-}
+
 
 #left {
   float: left;

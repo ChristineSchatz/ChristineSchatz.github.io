@@ -18,8 +18,8 @@ body {
 }
 
 #header {
-    position: fixed;
-    height: 80px;
+    /*position: fixed;*/
+    /*height: 80px;*/
     width: 100%;
     background: #FFFFFF;
     color: #0000FF;

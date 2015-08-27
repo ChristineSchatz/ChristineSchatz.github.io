@@ -8,19 +8,6 @@
     border: none;
 }
 
-#header {
-    position: fixed;
-    height: 80px;
-    width: 100%;
-    /*background: #00CCCC;*/
-    background: #FFFFFF;
-    color: #0000FF;
-    border-bottom-color: #ffffff;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    z-index: 100;
-    opacity: 100;
-}
 
 h3 {
       border-bottom: 1px solid black;
