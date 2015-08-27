@@ -101,7 +101,7 @@ body {
 #left {
   display: flex;
   flex-direction: row;
-
+  list-style-type: none;
 }
 #right {
   float: right;
