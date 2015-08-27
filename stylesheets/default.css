@@ -20,7 +20,7 @@ body {
 }
 
 #header {
-    /*position: fixed;*/
+
     /*height: 80px;*/
     width: 100%;
     background: #FFFFFF;
@@ -103,6 +103,7 @@ body {
   flex-direction: row;
   list-style-type: none;
 }
+
 #right {
   float: right;
   padding: 10px;

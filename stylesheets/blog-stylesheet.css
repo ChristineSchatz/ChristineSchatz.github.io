@@ -7,10 +7,14 @@
 }
 
 body {
+   background-color: #FFFFFF;
    height: 100%;
    font-family: 'Lato', sans-serif;
    font-family: 'Muli', sans-serif;
    font-size: 1.5em;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-position: left;
    margin: 0;
    padding: 0;
    height: 100%;
@@ -28,12 +32,18 @@ body {
     border-bottom-width: 1px;
     z-index: 100;
     opacity: 100;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #left {
-  float: left;
-
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
 }
+
 #right {
   float: right;
   padding: 10px;
