@@ -50,15 +50,26 @@ body {
    color: black;
 }
 
+.main-content {
+    margin:0 auto;
+    /*width: 30%;*/
+    /*height: 400px;*/
+    padding-top: 60px;
+    position: relative;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    font-family: 'Muli', sans-serif;
+}
+
 nav ul {
   margin-top: 20px;
-
-  /*/text-align: center;*/
+  display: flex;
+  flex-flow: row wrap;
 }
 
 nav ul li {
-
   display: inline;
+  list-style: none;
   margin: 30px;
   font-weight: bold;
 }
@@ -150,7 +161,7 @@ input[type=button]:hover, input[type=reset]:hover {
 }
 
 #main {
-  padding-top: 85px;
+  padding-top: 65px;
   width: 900px;
   margin-left: auto;
   margin-right: auto;
@@ -169,12 +180,6 @@ input[type=button]:hover, input[type=reset]:hover {
     border-top-width: 1px;*/
     z-index: 1000;
     padding: 10px;
-}
-
-
-#wrap {
-    position: relative;
-    height: 100%;
 }
 
 

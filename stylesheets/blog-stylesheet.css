@@ -38,11 +38,23 @@ body {
     align-items: center;
 }
 
+.main-content {
+    margin:0 auto;
+    /*width: 30%;*/
+    /*height: 400px;*/
+    padding-top: 60px;
+    position: relative;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    font-family: 'Muli', sans-serif;
+}
+
 #left {
   display: flex;
   flex-direction: row;
-  list-style-type: none;
+
 }
+
 
 #right {
   float: right;
@@ -51,11 +63,13 @@ body {
 
 nav ul {
   margin-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 nav ul li {
-
   display: inline;
+  list-style: none;
   margin: 30px;
   font-weight: bold;
 }
@@ -94,10 +108,6 @@ a:hover {
     padding: 10px;
 }
 
-#wrap {
-    position: relative;
-    height: 100%;
-}
 
 #wrap_content {
 
