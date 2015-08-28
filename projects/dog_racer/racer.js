@@ -9,35 +9,34 @@ $(document).ready(function() {
     posX: 0
   }
 
-   $('#begin').on('click',function() {
+   $('#begin').on('click', function() {
     $(this).hide();
+    $('.instructions').hide();
      $(playerA.name).css('margin-left',"0")
      $(playerB.name).css('margin-left',"0")
 
     $(document).on('keyup', function(event) {
-      if(event.keyCode == 74) {
+      if(event.keyCode == 81) {
         if(playerA.posX < 100) {
-          updatePosition(playerA)
+          updatePosition(playerA);
         }
         else {
-          displayWinner(playerA)
-          // alert ("Game over!, Player B wins!");
-          $(document).unbind('keyup')
+          displayWinner(playerA);
+          $(document).unbind('keyup');
           }
         }
-        if(event.keyCode == 75) {
+        if(event.keyCode == 80) {
           if(playerB.posX < 100) {
-            updatePosition(playerB)
+            updatePosition(playerB);
           }
           else {
-            displayWinner(playerB)
-            // alert("Game over, Player B wins!");
-            $(document).unbind('keyup')
-            }
-          }
-        })
-      });
-    });
+            displayWinner(playerB);
+            $(document).unbind('keyup');
+           }
+        }
+      })
+  });
+});
 
 
 var updatePosition = function(player) {
@@ -47,5 +46,6 @@ var updatePosition = function(player) {
 
 function displayWinner(player) {
   var winner = player.id;
-  $('#main').append(document.createTextNode(winner + " won! Yay!"));
+  $('#result').append(document.createTextNode(winner + " won! Yay!"));
+  $('#result').css( "color", "white" );
 }
