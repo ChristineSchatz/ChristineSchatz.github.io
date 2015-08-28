@@ -1,9 +1,11 @@
 $(document).ready(function() {
   var playerA = {
     name: '#playerA',
+    id: "Player A",
     posX: 0
   }, playerB = {
     name: '#playerB',
+    id: "Player B",
     posX: 0
   }
 
@@ -18,6 +20,7 @@ $(document).ready(function() {
           updatePosition(playerA)
         }
         else {
+          displayWinner(playerA)
           // alert ("Game over!, Player B wins!");
           $(document).unbind('keyup')
           }
@@ -27,6 +30,7 @@ $(document).ready(function() {
             updatePosition(playerB)
           }
           else {
+            displayWinner(playerB)
             // alert("Game over, Player B wins!");
             $(document).unbind('keyup')
             }
@@ -42,5 +46,6 @@ var updatePosition = function(player) {
 }
 
 function displayWinner(player) {
-  $('#result').css('text') // player.name has won!
+  var winner = player.id;
+  $('#result').append(document.createTextNode(winner + " won! Yay!")); // player.name has won!
 }
