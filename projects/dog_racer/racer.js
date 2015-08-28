@@ -47,5 +47,5 @@ var updatePosition = function(player) {
 
 function displayWinner(player) {
   var winner = player.id;
-  $('#result').append(document.createTextNode(winner + " won! Yay!")); // player.name has won!
+  $('#main').append(document.createTextNode(winner + " won! Yay!"));
 }
