@@ -18,7 +18,7 @@ $(document).ready(function() {
           updatePosition(playerA)
         }
         else {
-          alert ("Game over!, Player B wins!");
+          // alert ("Game over!, Player B wins!");
           $(document).unbind('keyup')
           }
         }
@@ -27,7 +27,7 @@ $(document).ready(function() {
             updatePosition(playerB)
           }
           else {
-            alert("Game over, Player B wins!");
+            // alert("Game over, Player B wins!");
             $(document).unbind('keyup')
             }
           }
@@ -38,9 +38,9 @@ $(document).ready(function() {
 
 var updatePosition = function(player) {
   player.posX += 2;
-  $(player.name).css('margin-left',player.posX + "%")
+  $(player.name).css('margin-left', player.posX + "%")
 }
 
-function displayWinner() {
-
+function displayWinner(player) {
+  $('#result').css('text') // player.name has won!
 }
