@@ -22,39 +22,37 @@ body {
 }
 
 #header {
-    /*position: fixed;*/
-    /*height: 80px;*/
-    width: 100%;
-    background: #FFFFFF;
-    color: #0000FF;
-    border-bottom-color: #ffffff;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    z-index: 100;
-    opacity: 100;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
+  /*position: fixed;*/
+  /*height: 80px;*/
+  width: 100%;
+  background: #FFFFFF;
+  color: #0000FF;
+  border-bottom-color: #ffffff;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  z-index: 100;
+  opacity: 100;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .main-content {
-    margin:0 auto;
-    /*width: 30%;*/
-    /*height: 400px;*/
-    padding-top: 60px;
-    position: relative;
-    color: #FFFFFF;
-    margin-bottom: 30px;
-    font-family: 'Muli', sans-serif;
+  margin:0 auto;
+  /*width: 30%;*/
+  /*height: 400px;*/
+  padding-top: 60px;
+  position: relative;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+  font-family: 'Muli', sans-serif;
 }
 
 #left {
   display: flex;
   flex-direction: row;
-
 }
-
 
 #right {
   float: right;
@@ -80,8 +78,8 @@ a {
 }
 
 img {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
 iframe {
@@ -98,24 +96,14 @@ a:hover {
 }
 
 #footer {
-    position: relative; /* formerly fixed!*/
-    bottom: 0px;
-    height: 50px;
-    width: 100%;
-    text-align: center;
-    margin: 0px;
-    z-index: 1000;
-    padding: 10px;
-}
-
-
-#wrap_content {
-
-}
-
-.top_h {
-  width:100%;
-  height: 100px;
+  position: relative; /* formerly fixed!*/
+  bottom: 0px;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  margin: 0px;
+  z-index: 1000;
+  padding: 10px;
 }
 
 h4, h3 {
@@ -151,17 +139,14 @@ h6 {
   font-size: 0.7em;
   font-family: 'Courier', Open-Sans, sans-serif;
   color: red;
-
 }
 
 li {
  list-style-type: none;
-
 }
 
 .caption {
   font-size: 0.5em;
-
 }
 
 #date {
@@ -185,7 +170,6 @@ li {
   font-size: 0.7em;
 }
 
-
 .list {
   margin: 0 auto;
   width: 500px;
@@ -200,7 +184,6 @@ p {
   text-align: justify;
 }
 
-
 .blogcontent {
   padding: 40px;
   width: 75%;
@@ -208,18 +191,18 @@ p {
 }
 
 #blog_home_content {
-    border: 1px dashed gray;
-    margin:0 auto;
-    width: 85%;
-    position: relative;
-    color: black;
-    background-color: #FFFFFF;
-    overflow: scroll;
-    margin-bottom: 40px;
+  border: 1px dashed gray;
+  margin:0 auto;
+  width: 85%;
+  position: relative;
+  color: black;
+  background-color: #FFFFFF;
+  overflow: scroll;
+  margin-bottom: 40px;
 }
 
 #footer {
-   position: relative;
+  position: relative;
 }
 
 pre {

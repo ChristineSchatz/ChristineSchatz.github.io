@@ -1,7 +1,7 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    border: none;
+  margin: 0px;
+  padding: 0px;
+  border: none;
 }
 
 body {
@@ -20,32 +20,31 @@ body {
 }
 
 #header {
-
-    /*height: 80px;*/
-    width: 100%;
-    background: #FFFFFF;
-    color: #0000FF;
-    border-bottom-color: #ffffff;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    z-index: 100;
-    opacity: 100;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
+  /*height: 80px;*/
+  width: 100%;
+  background: #FFFFFF;
+  color: #0000FF;
+  border-bottom-color: #ffffff;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  z-index: 100;
+  opacity: 100;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 
 .main-content {
-    margin:0 auto;
-    /*width: 30%;*/
-    /*height: 400px;*/
-    padding-top: 60px;
-    position: relative;
-    color: #FFFFFF;
-    margin-bottom: 30px;
-    font-family: 'Muli', sans-serif;
+  margin:0 auto;
+  /*width: 30%;*/
+  /*height: 400px;*/
+  padding-top: 60px;
+  position: relative;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+  font-family: 'Muli', sans-serif;
 }
 
 #my-photo {
@@ -62,19 +61,20 @@ body {
   padding-top: 5px;
   margin-left: 20px;
   color: gray;
-
 }
 
- @font-face { font-family: 'Slim Joe'; src: url('../fonts/Slim Joe.otf'); }
+
+ @font-face { font-family: 'Slim Joe'; src: url('../fonts/Slim Joe.otf');
+}
 
 .my-name {
-    text-align: left;
-    color: black;
-    margin: 0 auto;
-    font-family: 'Slim Joe';
-    font-size: 3.5em;
-    font-weight: normal;
-    padding: 5px;
+  text-align: left;
+  color: black;
+  margin: 0 auto;
+  font-family: 'Slim Joe';
+  font-size: 3.5em;
+  font-weight: normal;
+  padding: 5px;
 }
 
 .emphasis {
@@ -82,14 +82,14 @@ body {
 }
 
 #blurb {
-    float: right;
-    width: 60%;
-    height: 60%;
-    padding-right: 50px;
-    color: black;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Muli', sans-serif;
-    font-size: 0.6em;
+  float: right;
+  width: 60%;
+  height: 60%;
+  padding-right: 50px;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Muli', sans-serif;
+  font-size: 0.6em;
 }
 
 #blurb a {
@@ -97,16 +97,17 @@ body {
   text-align: center;
 }
 
-
 #left {
   display: flex;
   flex-direction: row;
+  list-style-type: none;
 }
 
 #right {
   float: right;
   padding: 10px;
 }
+
 #bio {
   padding-top: 10px;
 }
@@ -148,14 +149,14 @@ a:hover {
 }
 
 #footer {
-    position: relative;
-    bottom: 0px;
-    height: 50px;
-    width: 100%;
-    text-align: center;
-    margin: 0px;
-    z-index: 1000;
-    padding: 10px;
+  position: relative;
+  bottom: 0px;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  margin: 0px;
+  z-index: 1000;
+  padding: 10px;
 }
 
 h4 {
@@ -164,8 +165,8 @@ h4 {
 }
 
 #wrap {
-    position: relative;
-    height: 100%;
+  position: relative;
+  height: 100%;
 }
 
 
