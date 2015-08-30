@@ -6,6 +6,11 @@
     border: none;
 }
 
+#wrap {
+  position: relative;
+  height: 100%;
+}
+
 body {
    background-color: #FFFFFF;
    height: 100%;
