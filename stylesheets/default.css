@@ -281,19 +281,6 @@ pre {
       font-size: 2em;
     }
 
-   /* .project-grid {
-      width: 10.25em;
-      height: 10.25em;
-      display: inline-block;
-    }
-*/
-    .project-description {
-      width: 11.25em; /*formerly 300px */
-      height: 5.25em; /*formerly 210px */
-      display: inline-block;
-      float: right;
-    }
-
     .project-break {
       padding: 2px;
     }
