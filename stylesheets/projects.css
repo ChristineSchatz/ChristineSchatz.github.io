@@ -16,6 +16,10 @@ h3, h1 {
   color: #9932CC;
 }
 
+..project-break a:link {
+  color: #9932CC;
+}
+
 .bold {
   font-weight: bolder;
 }
