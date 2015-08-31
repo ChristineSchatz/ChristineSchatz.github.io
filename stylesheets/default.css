@@ -159,18 +159,127 @@ a:hover {
   padding: 10px;
 }
 
-h4 {
-  font-family: 'Courier', Open-Sans, sans-serif;
-  font-weight: normal;
-}
+
 
 #wrap {
   position: relative;
   height: 100%;
 }
 
+h4, h3 {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Muli', sans-serif;
+  color:black;
+  padding: 5px;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+}
+
+h5 {
+  color: gray;
+  text-align: center;
+}
+
+h6 {
+  border-bottom: 1px dashed gray;
+  color: gray;
+  padding: 4px;
+  text-align: center;
+}
+
+.emphasis {
+  color: #1BA2CB;
+  font-family: 'Courier', Open-Sans, sans-serif;
+}
+
+.strategies {
+  font-size: 0.7em;
+  font-family: 'Courier', Open-Sans, sans-serif;
+  color: red;
+}
+
+li {
+ list-style-type: none;
+}
+
+.caption {
+  font-size: 0.5em;
+}
+
+#date {
+  font-style: italic;
+  text-align: center;
+}
+
+.blog_list {
+  margin: 0 auto;
+  width: 500px;
+  border-top: 1px solid orange
+}
+
+.blog_list li {
+  font-size: 0.7em;
+  padding-top: 10px;
+}
+
+.blog_list a {
+  color: #1BA2CB;
+  font-size: 0.7em;
+}
+
+.list {
+  margin: 0 auto;
+  width: 500px;
+  font-size: 0.6em;
+}
+
+p {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Muli', sans-serif;
+  font-size: 0.7em;
+  text-align: justify;
+}
+
+.blogcontent {
+  padding: 40px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+#blog_home_content {
+  border: 1px dashed gray;
+  margin:0 auto;
+  width: 85%;
+  position: relative;
+  color: black;
+  background-color: #FFFFFF;
+  overflow: scroll;
+  margin-bottom: 40px;
+}
+
+#footer {
+  position: relative;
+}
+
+pre {
+  font-size: 0.7em;
+  background-color: beige;
+}
 
 
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .project-thumb {
+      display: none;
+    }
+}
 
 
 
