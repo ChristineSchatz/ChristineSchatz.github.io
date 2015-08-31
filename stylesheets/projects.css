@@ -12,6 +12,10 @@ h3, h1 {
   text-align: left;
 }
 
+.project-break a:visited {
+  color: #9932CC;
+}
+
 .bold {
   font-weight: bolder;
 }
