@@ -103,6 +103,10 @@ body {
   list-style-type: none;
 }
 
+#left li {
+  padding: 3px;
+}
+
 #right {
   float: right;
   padding: 10px;
