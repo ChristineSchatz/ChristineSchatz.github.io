@@ -288,6 +288,10 @@ pre {
     .project-break {
       padding: 2px;
     }
+
+    .nav {
+      flex-direction: column;
+    }
 }
 
 
