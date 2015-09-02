@@ -19,20 +19,35 @@ body {
    color: black;
 }
 
-#header {
+.main-header, .nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-header {
   /*height: 80px;*/
-  width: 100%;
+  /*width: 100%;*/
   background: #FFFFFF;
   color: #0000FF;
-  border-bottom-color: #ffffff;
+  /*border-bottom-color: #ffffff;
   border-bottom-style: solid;
-  border-bottom-width: 1px;
-  z-index: 100;
-  opacity: 100;
+  border-bottom-width: 1px;*/
+  /*z-index: 100;
+  opacity: 100;*/
+  /*display: flex;*/
+  /*flex-flow: row wrap;*/
+  /*justify-content: space-between;*/
+  /*align-items: center;*/
+}
+
+.nav {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: center;
+  margin-top: 1.5em;
+}
+
+.nav a {
+  padding: .8em;
+  display: block;
 }
 
 
@@ -40,7 +55,7 @@ body {
   margin:0 auto;
   /*width: 30%;*/
   /*height: 400px;*/
-  padding-top: 60px;
+  padding-top: 40px;
   position: relative;
   color: #FFFFFF;
   margin-bottom: 30px;
@@ -98,16 +113,19 @@ body {
 }
 
 #left {
-  display: flex;
-  flex-direction: row;
+  width: 200px;
+  /*display: flex;
+  flex-direction: row;*/
   list-style-type: none;
 }
 
 #left li {
   padding: 5px;
+  align-self: center;
 }
 
 #right {
+  display: flex;
   float: right;
   padding: 10px;
 }
@@ -116,7 +134,7 @@ body {
   padding-top: 10px;
 }
 
-nav ul {
+/*nav ul {
   margin-top: 20px;
   display: flex;
   flex-flow: row wrap;
@@ -127,7 +145,7 @@ nav ul li {
   list-style: none;
   margin: 30px;
   font-weight: bold;
-}
+}*/
 
 a {
   color: #01B5AA;
@@ -267,6 +285,11 @@ pre {
   background-color: beige;
 }
 
+.project-thumb {
+  display: flex;
+}
+
+/* responsiveness: media queries */
 
 @media only screen
   and (min-device-width: 375px)
@@ -274,7 +297,8 @@ pre {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .project-thumb {
-      display: none;
+
+
     }
 
     .mobile-text {
@@ -289,9 +313,43 @@ pre {
       padding: 2px;
     }
 
-    .nav {
-      flex-direction: column;
+    .main-content {
+      padding: 0;
     }
+
+}
+
+@media (min-width: 769px) {
+  .main-header {
+    height: 200px;
+    justify-content: flex-end;
+  }
+  #left {
+    width: 140px;
+  }
+  .nav {
+    margin-top: 3em;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+}
+
+@media (min-width: 1025px) {
+  .main-header {
+    flex-direction: row;
+  }
+  #left {
+    margin-right: auto;
+  }
+  .nav {
+    align-self: center;
+    margin-top: 0;
+  }
+  .nav li {
+    margin-left: .65em;
+    margin-right: .65em;
+  }
 }
 
 
