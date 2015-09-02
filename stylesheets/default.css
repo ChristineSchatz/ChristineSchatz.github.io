@@ -325,7 +325,8 @@ pre {
     justify-content: flex-end;
   }
   #left {
-    width: 140px;
+    align-self: center;
+    width: 200px;
   }
   .nav {
     margin-top: 3em;
