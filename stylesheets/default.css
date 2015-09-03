@@ -297,9 +297,17 @@ pre {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .project-grid {
-      margin: auto;
+      margin: 0;
       /*height: 10.25em;*/
-      float: right;
+      max-height: 10.25em;
+      float: left;
+    }
+
+    .project-description {
+      max-height: 10.25em;
+      padding-bottom: 5px;
+      display: block;
+      margin: auto;
     }
 
     .mobile-text {
