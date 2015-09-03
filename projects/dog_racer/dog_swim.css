@@ -3,62 +3,20 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   font-family: 'Lato', sans-serif;
-   font-family: 'Muli', sans-serif;
-   font-size: 1.5em;
+  font-family: 'Muli', sans-serif;
+  font-size: 1.5em;
    /*display: block;*/
-   margin: 0;
-   padding: 0;
-   height: 100%;
-   color: black;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-#header {
-    position: fixed;
-    height: 80px;
-    width: 100%;
-    /*background: #00CCCC;*/
-    background: #FFFFFF;
-    color: #0000FF;
-    border-bottom-color: #ffffff;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    z-index: 100;
-    opacity: 100;
-}
-
-#main {
-  padding-top: 85px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#wrap {
-  position: relative;
-  height: 100%;
-}
-
-nav ul {
-  margin-top: 20px;
-}
-
-nav ul li {
-  display: inline;
-  margin: 30px;
-  font-weight: bold;
-}
-
-a {
-  color: #01B5AA;
-  text-decoration: none;
-}
-
-
-h1  {
+h2  {
   color: white;
   text-align: center;
   font-family:  'Lato', sans-serif;
@@ -92,7 +50,6 @@ h1  {
   font-weight:700;
   color:#fff;
   line-height:35px;
-  text-align:center;
   background:url(../images/button_form.gif) top repeat-x #308da2;
   border-radius:10px;
   -moz-border-radius:10px;
@@ -110,6 +67,6 @@ h1  {
   color: white;
   width: 100%;
   text-align: center;
-  padding-top: 5px;
+
 }
 
