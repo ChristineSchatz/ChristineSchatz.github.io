@@ -292,7 +292,7 @@ pre {
 /* responsiveness: media queries */
 
 @media only screen
-  and (min-device-width: 375px)
+  and (min-device-width: 320px)
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
@@ -311,9 +311,23 @@ pre {
       display: block;
     }
 
+    #blurb {
+      margin: 0%;
+      padding:0%;
+      float: left;
+      display: block;
+    }
+
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
+
+  #blurb {
+    margin: 0%;
+    padding:0%;
+    float: left;
+    display: block;
+  }
 
   #project-wrapper {
     margin: 0;
@@ -323,10 +337,12 @@ pre {
     height: 200px;
     justify-content: flex-end;
   }
+
   #left {
     align-self: center;
     width: 200px;
   }
+
   .nav {
     margin-top: 3em;
     flex-direction: row;
