@@ -292,51 +292,57 @@ pre {
 /* responsiveness: media queries */
 
 @media only screen
-  and (min-device-width: 375px)
+  and (min-device-width: 320px)
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+
     .project-grid {
-      margin: 0;
-      /*height: 10.25em;*/
-      max-height: 10.25em;
+      margin: 0%;
+      padding:0%;
       float: left;
+      display: block;
     }
 
     .project-description {
-      max-height: 10.25em;
-      padding-bottom: 5px;
+      margin: 0%;
+      padding:0%;
+      float: left;
       display: block;
-      margin: auto;
     }
 
-    .mobile-text {
-      font-size: 15px;
-    }
-
-    .mobile-header {
-      font-size: 2em;
-    }
-
-    .project-break {
-      padding: 2px;
-    }
-
-    .main-content {
-      padding: 0;
+    #blurb {
+      margin: 0%;
+      padding:0%;
+      float: left;
+      display: block;
     }
 
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
+
+  #blurb {
+    margin: 0%;
+    padding:0%;
+    float: left;
+    display: block;
+  }
+
+  #project-wrapper {
+    margin: 0;
+  }
+
   .main-header {
     height: 200px;
     justify-content: flex-end;
   }
+
   #left {
     align-self: center;
     width: 200px;
   }
+
   .nav {
     margin-top: 3em;
     flex-direction: row;
