@@ -29,15 +29,6 @@ body {
   /*width: 100%;*/
   background: #FFFFFF;
   color: #0000FF;
-  /*border-bottom-color: #ffffff;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;*/
-  /*z-index: 100;
-  opacity: 100;*/
-  /*display: flex;*/
-  /*flex-flow: row wrap;*/
-  /*justify-content: space-between;*/
-  /*align-items: center;*/
 }
 
 .nav {
@@ -204,6 +195,43 @@ h6 {
   padding: 4px;
   text-align: center;
 }
+
+/* quiz styles */
+
+.quiz-header {
+  width: 50%;
+  float: left;
+}
+
+td p{
+  font-size: 1.0em;
+}
+
+td {
+  padding: 1%;
+}
+
+h3.big-trouble-header {
+  color: #9932CC;
+}
+
+.example {
+  text-align: center;
+  padding-top: 2%;
+}
+
+.submit {
+  width: 50%;
+  float: left;
+}
+
+input.button {
+  font-size: 1.0em;
+  background-color: turquoise;
+}
+
+/* end quiz styles */
+
 
 .emphasis {
   color: #1BA2CB;
