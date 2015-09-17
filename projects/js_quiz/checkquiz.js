@@ -1,64 +1,64 @@
 function checkQuiz(){
-  var checker = false;
+var checker = false;
 
-	for(var i=0; i < document.forms[0].question1.length; i++) {
-	  if (document.forms[0].question1[i].checked) {
-	     checker = true;
-	      ans1 = i;
-		  }
-		}
+for(var i=0; i < document.forms[0].question1.length; i++) {
+if (document.forms[0].question1[i].checked) {
+   checker = true;
+    ans1 = i;
+}
+}
 
-	  if(checker == false) {alert("Please select all answers before submitting");
-	    return false;}
-
-
-	  var checker = false;
-	  for(var i=0; i < document.forms[0].question2.length; i++) {
-	  	if (document.forms[0].question2[i].checked){
-	     	checker = true;
-		 		ans2 = i;
-		 	}
-		 }
-
-	  if(checker == false) {alert("Please select all answers before submitting");
-	     return false;}
-
-		var checker = false;
-
-	 	for(var i=0; i < document.forms[0].question3.length; i++) {
-	  	if (document.forms[0].question3[i].checked) {
-	     	checker = true;
-	     	ans3 = i;
-		 	}
-		 }
-	  	if(checker == false) {alert("Please select all answers before submitting");
-	     return false;}
+if(checker == false) {alert("Please select all answers before submitting");
+  return false;}
 
 
-	  var checker = false;
-	 	for(var i=0; i < document.forms[0].question4.length; i++) {
-	  	if (document.forms[0].question4[i].checked) {
-	     	checker = true;
-		 	 	ans4 = i;
-		 	}
-		 }
-	  if(checker == false){alert("Please select all answers before submitting");
-	     return false;}
+var checker = false;
+for(var i=0; i < document.forms[0].question2.length; i++) {
+	if (document.forms[0].question2[i].checked){
+   	checker = true;
+ 		ans2 = i;
+}
+}
+
+if(checker == false) {alert("Please select all answers before submitting");
+   return false;}
+
+var checker = false;
+
+	for(var i=0; i < document.forms[0].question3.length; i++) {
+	if (document.forms[0].question3[i].checked) {
+   	checker = true;
+   	ans3 = i;
+}
+}
+if(checker == false) {alert("Please select all answers before submitting");
+ return false;}
 
 
-	 var checker = false;
-	 for(var i=0; i < document.forms[0].question5.length; i++) {
-	  if (document.forms[0].question5[i].checked){
-	      checker = true;
-		  	ans5 = i;
-		  }
-		 }
-	  if(checker == false) {alert("Please select all answers before submitting");
-	     return false;}
+var checker = false;
+	for(var i=0; i < document.forms[0].question4.length; i++) {
+	if (document.forms[0].question4[i].checked) {
+   	checker = true;
+ 	 	ans4 = i;
+}
+}
+if(checker == false){alert("Please select all answers before submitting");
+   return false;}
 
-	 scoreQuiz(ans1,ans2,ans3,ans4,ans5);
-	 return true;
-	}
+
+ var checker = false;
+ for(var i=0; i < document.forms[0].question5.length; i++) {
+  if (document.forms[0].question5[i].checked){
+      checker = true;
+	  	ans5 = i;
+}
+}
+if(checker == false) {alert("Please select all answers before submitting");
+   return false;}
+
+ scoreQuiz(ans1,ans2,ans3,ans4,ans5);
+ return true;
+}
 
 
 
@@ -83,5 +83,5 @@ function scoreQuiz(a,b,c,d,e) {
 		message = "You must be too young for this quiz.";
 	}
 	  alert(score + " " + "out of 5. " + message);
-	}
+}
 
