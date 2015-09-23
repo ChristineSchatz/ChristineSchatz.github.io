@@ -43,9 +43,8 @@ body {
 
 
 .main-content {
-  margin:0 auto;
+  /*margin:0 auto;*/
   /*width: 30%;*/
-  /*height: 400px;*/
   padding-top: 40px;
   /*position: relative;*/
   color: #FFFFFF;
@@ -91,16 +90,10 @@ body {
   float: right;
   width: 60%;
   height: 60%;
-  padding-right: 50px;
   color: black;
   font-family: 'Lato', sans-serif;
   font-family: 'Muli', sans-serif;
   font-size: 0.6em;
-}
-
-#blurb a {
-  display: inline;
-  text-align: center;
 }
 
 #left {
@@ -364,7 +357,7 @@ pre {
   #blurb {
     margin: 0%;
     padding:0%;
-    float: left;
+    /*float: left;*/
     display: block;
   }
 
