@@ -1,3 +1,7 @@
+/* fonts */
+@font-face { font-family: 'Slim Joe'; src: url('../fonts/Slim Joe.otf');
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -25,8 +29,6 @@ body {
 }
 
 .main-header {
-  /*height: 80px;*/
-  /*width: 100%;*/
   background: #FFFFFF;
   color: #0000FF;
 }
@@ -43,10 +45,7 @@ body {
 
 
 .main-content {
-  /*margin:0 auto;*/
-  /*width: 30%;*/
   padding-top: 40px;
-  /*position: relative;*/
   color: #FFFFFF;
   margin-bottom: 30px;
   font-family: 'Muli', sans-serif;
@@ -55,7 +54,6 @@ body {
 #my-photo {
   float: left;
 }
-
 
 .my-bio {
   font-family: 'Muli', sans-serif;
@@ -66,10 +64,6 @@ body {
   padding-top: 5px;
   margin-left: 20px;
   color: gray;
-}
-
-
- @font-face { font-family: 'Slim Joe'; src: url('../fonts/Slim Joe.otf');
 }
 
 .my-name {
@@ -117,19 +111,6 @@ body {
 #bio {
   padding-top: 10px;
 }
-
-/*nav ul {
-  margin-top: 20px;
-  display: flex;
-  flex-flow: row wrap;
-}
-
-nav ul li {
-  display: inline;
-  list-style: none;
-  margin: 30px;
-  font-weight: bold;
-}*/
 
 a {
   color: #01B5AA;
