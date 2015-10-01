@@ -9,6 +9,7 @@
 }
 
 .wrap {
+  min-width: 85%;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -367,6 +368,12 @@ pre {
     justify-content: space-between;
   }
 
+}
+
+@media (max-width: 939px) {
+  .project-wrapper {
+    max-width: 90%;
+  }
 }
 
 @media (min-width: 1025px) {
