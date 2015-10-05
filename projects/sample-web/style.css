@@ -12,10 +12,18 @@ header {
   color: black;
 }
 
+.tagline {
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  padding-left: 30px;
+}
+
 section {
   display: block;
   padding: 120px 0 100px;
-  width: 100%;
 }
 
 #home .intro {
