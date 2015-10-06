@@ -15,7 +15,15 @@ nav ul {
 
 a {
   font-size: 20px;
-  color: ;
+  color: #01B5AA;
+}
+
+a:visited {
+  color: #01B5AA;
+}
+
+a:active {
+  color: #01B5AA;
 }
 
 hr {

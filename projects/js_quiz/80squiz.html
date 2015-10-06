@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link href='http://fonts.googleapis.com/css?family=Lato|Muli' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+  <script src="checkquiz.js"></script>
 </head>
 
 <header>
@@ -24,28 +25,24 @@
     <li><a href="https://github.com/ChristineSchatz/"><i class="fa fa-github "></i></a></li>
      <li> <a href="https://www.linkedin.com/in/christineschatz"><i class="fa fa-linkedin-square "></i></a></li>
     <li><a href="https://twitter.com/theloopla"><i class="fa fa-twitter "></i></a></li>
-      <li><a href="#">ABOUT</a></li>
-      <li><a href="blog-home.html">BLOG</a></li>
+    <nav class="links">
+      <li><a href="index.html">ABOUT</a></li>
+      <li><a href="#">BLOG</a></li>
       <li><a href="projects.html">PROJECTS</a></li>
       <li><a href="resume.html">RESUME</a></li>
     </ul>
+    </nav>
   </div>
   </nav>
 </header>
 
 
- <body>
- <div class="wrap">
- <div id="main-content">
+
  <form id="quiz" onsubmit="checkQuiz()">
  <div class="quiz-header">
- <h3 class="big-trouble-header">Test Your 80s Movie Knowledge!</h3>
- <img src="btlchina.jpg" alt="big trouble in little china" />
- <p class="example">Hint: Scene from which movie?</p>
-
- </div>
- <div id="ans">
-
+   <h3 class="big-trouble-header">Test Your 80s Movie Knowledge!</h3>
+   <img src="btlchina.jpg" alt="big trouble in little china" />
+   <p class="example">Hint: Scene from which movie?</p>
  </div>
 
 <table>
@@ -147,9 +144,7 @@
       <input onclick="checkQuiz()" type="button" class="button" name="send" id="button" value="Submit" />
   </div>
  </form>
- </div>
-</div>
-</body>
+
 
 
 </html>
