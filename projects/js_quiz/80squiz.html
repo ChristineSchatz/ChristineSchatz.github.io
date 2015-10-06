@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,100,300,200,500,600,700,800,900" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <link rel="stylesheet" type="text/css" href="../../stylesheets/style.css">
 
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link href='http://fonts.googleapis.com/css?family=Lato|Muli' rel='stylesheet' type='text/css'>
@@ -30,114 +30,127 @@
   </div>
 </header>
 
+<section id="quiz">
+  <div class="container">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1 tagline">
+          <h3 class="big-trouble-header">Test Your 80's Movie Knowledge!</h3>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+    <div class="row">
+     <form id="quiz" onsubmit="checkQuiz()">
+     <div class="col-md-4 quiz-header">
+       <img src="btlchina.jpg" alt="big trouble in little china" />
+       <p class="quiz">Hint: Scene from which movie?</p>
+     </div>
+    <div class="col-md-8 questions">
+    <table>
+    <tr>
+    <td>1. From which movie is the quote "We're not gonna fall for a banana in the tailpipe!"?</td>
+    </tr>
+    <tr>
+     <td>
+     <input type="radio" name="question1" id="heathers" value="heathers" />
+     <label for="heathers">Heathers</label>
+     <input type="radio" name="question1" id="bhcop" value="bhcop" />
+     <label for="bhcop">Beverly Hills Cop</label>
+     <input type="radio" name="question1" id="fasttimes" value="fasttimes" />
+     <label for="ft">Fast Times at Ridgemont High</label>
+     <input type="radio" name="question1" id="breakfast" value="breakfast" />
+     <label for="bk">Breakfast Club</label>
+     </td>
+    </tr>
 
- <form id="quiz" onsubmit="checkQuiz()">
- <div class="quiz-header">
-   <h3 class="big-trouble-header">Test Your 80s Movie Knowledge!</h3>
-   <img src="btlchina.jpg" alt="big trouble in little china" />
-   <p class="example">Hint: Scene from which movie?</p>
- </div>
+     <tr>
+     <td>2. Which movie featured Kurt Russell as a vigilante truck driver?</td>
+    </tr>
 
-<table>
-<tr>
-<td>1. From which movie is the quote "We're not gonna fall for a banana in the tailpipe!"?</td>
-</tr>
-<tr>
- <td>
- <p><input type="radio" name="question1" id="heathers" value="heathers" />
- <label for="heathers">Heathers</label>
- </p><input type="radio" name="question1" id="bhcop" value="bhcop" />
- <label for="bhcop">Beverly Hills Cop</label>
- <p><input type="radio" name="question1" id="fasttimes" value="fasttimes" />
- <label for="ft">Fast Times at Ridgemont High</label>
- <p><input type="radio" name="question1" id="breakfast" value="breakfast" />
- <label for="bk">Breakfast Club</label>
- </td>
-</tr>
+    <tr>
+     <td>
+     <input type="radio" name="question2" id="overboard" value="overboard" />
+     <label for="ob">Overboard</label>
+     <input type="radio" name="question2" id="btilc" value="bigtrouble" />
+     <label for="btilc">Big Trouble in Little China</label>
+     <input type="radio" name="question2" id="thing" value="thing" />
+     <label for="thing">The Thing</label>
+     <input type="radio" name="question2" id="tequila" value="tequila" />
+     <label for="tequila">Tequila Sunrise</label>
+     </td>
+    </tr>
 
- <tr>
- <td>2. Which movie featured Kurt Russell as a vigilante truck driver?</td>
-</tr>
+     <tr>
+     <td>3. Which movie featured Jean Claude Van Damme as Frank Dux?</td>
+    </tr>
 
-<tr>
- <td>
- <p><input type="radio" name="question2" id="overboard" value="overboard" />
- <label for="ob">Overboard</label>
- <p><input type="radio" name="question2" id="btilc" value="bigtrouble" />
- <label for="btilc">Big Trouble in Little China</label>
- <p><input type="radio" name="question2" id="thing" value="thing" />
- <label for="thing">The Thing</label>
- <p><input type="radio" name="question2" id="tequila" value="tequila" />
- <label for="tequila">Tequila Sunrise</label>
- </td>
-</tr>
+    <tr>
+     <td>
+     <input type="radio" name="question3" id="lion" value="lion" />
+     <label for="lion">Lionheart</label>
+     <input type="radio" name="question3" id="karate" value="karate" />
+     <label for="karate">Karate Kid</label>
+     <input type="radio" name="question3" id="bloodsport" value="bloodsport" />
+     <label for="bloodsport">Bloodsport</label>
+     <input type="radio" name="question3" id="ots" value="ots" />
+     <label for="ots">Only the Strong</label>
+     </td>
+    </tr>
 
- <tr>
- <td>3. Which movie featured Jean Claude Van Damme as Frank Dux?</td>
-</tr>
+     <tr>
+     <td>4. Which actor starred as the protagonist in Some Kind of Wonderful? </td>
+    </tr>
+    <tr>
+     <td>
+     <input type="radio" name="question4" id="mj" value="mj" />
+     <label for="mj">Michael J. Fox</label>
+     <input type="radio" name="question4" id="estoltz" value="estoltz" />
+     <label for="estoltz">Eric Stoltz</label>
+     <input type="radio" name="question4" id="niccage" value="niccage" />
+     <label for="nc">Nicolas Cage</label>
+     <input type="radio" name="question4" id="cusack" value="cusack" />
+     <label for="cusack">John Cusack</label>
+     </td>
+    </tr>
 
-<tr>
- <td>
- <p><input type="radio" name="question3" id="lion" value="lion" />
- <label for="lion">Lionheart</label>
- <p><input type="radio" name="question3" id="karate" value="karate" />
- <label for="karate">Karate Kid</label>
- <p><input type="radio" name="question3" id="bloodsport" value="bloodsport" />
- <label for="bloodsport">Bloodsport</label>
- <p><input type="radio" name="question3" id="ots" value="ots" />
- <label for="ots">Only the Strong</label>
- </td>
-</tr>
+     <tr>
+     <td>5. Who directed Blade Runner?</td>
+    </tr>
+    <tr>
+     <td>
+     <input type="radio" name="question5" id="ss" value="ss" />
+     <label for="ss">Stephen Spielberg</label>
+     <input type="radio" name="question5" id="tb" value="tb" />
+     <label for="tb">Tim Burton</label>
+     <input type="radio" name="question5" id="rscott" value="rscott" />
+     <label for="rscott">Ridley Scott</label>
+     <input type="radio" name="question5" id="jc" value="jc" />
+     <label for="jc">James Cameron</label>
+     </td>
+     </tr>
 
- <tr>
- <td>4. Which actor starred as the protagonist in Some Kind of Wonderful? </td>
-</tr>
-<tr>
- <td>
- <p><input type="radio" name="question4" id="mj" value="mj" />
- <label for="mj">Michael J. Fox</label>
- <p><input type="radio" name="question4" id="estoltz" value="estoltz" />
- <label for="estoltz">Eric Stoltz</label>
- <p><input type="radio" name="question4" id="niccage" value="niccage" />
- <label for="nc">Nicolas Cage</label>
- <p><input type="radio" name="question4" id="cusack" value="cusack" />
- <label for="cusack">John Cusack</label>
- </td>
-</tr>
-
- <tr>
- <td>5. Who directed Blade Runner?</td>
-</tr>
-<tr>
- <td>
- <p><input type="radio" name="question5" id="ss" value="ss" />
- <label for="ss">Stephen Spielberg</label>
- <p><input type="radio" name="question5" id="tb" value="tb" />
- <label for="tb">Tim Burton</label>
- <p><input type="radio" name="question5" id="rscott" value="rscott" />
- <label for="rscott">Ridley Scott</label>
- <p><input type="radio" name="question5" id="jc" value="jc" />
- <label for="jc">James Cameron</label>
- </td>
- </tr>
-
- <tr>
- <td></td>
- </tr>
- <br />
- <input type="hidden" name="answer1" value="bhcop" />
- <input type="hidden" name="answer2" value="bigtrouble" />
- <input type="hidden" name="answer3" value="bloodsport" />
- <input type="hidden" name="answer4" value="estoltz" />
- <input type="hidden" name="answer5" value="rscott" />
- <!--end main -->
- </table>
- <div class="submit">
-      <input type="reset" class="button" name="clear" id="clear" value="Clear" />
-      <input onclick="checkQuiz()" type="button" class="button" name="send" id="button" value="Submit" />
+     <tr>
+     <td></td>
+     </tr>
+     <br />
+     <input type="hidden" name="answer1" value="bhcop" />
+     <input type="hidden" name="answer2" value="bigtrouble" />
+     <input type="hidden" name="answer3" value="bloodsport" />
+     <input type="hidden" name="answer4" value="estoltz" />
+     <input type="hidden" name="answer5" value="rscott" />
+     <!--end main -->
+     </table>
+     <div class="row">
+       <div class="submit">
+            <input type="reset" class="btn btn-primary" name="clear" id="clear" value="Clear" />
+            <input onclick="checkQuiz()" type="button" class="btn btn-primary" name="send" id="button" value="Submit" />
+        </div>
+      </div>
+     </form>
+    </div>
   </div>
- </form>
+    <!--end col-md-->
 
-
-</body
+</section>
+</body>
 </html>
