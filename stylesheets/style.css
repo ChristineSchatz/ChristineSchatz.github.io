@@ -102,8 +102,13 @@ nav ul li {
   text-align: center;
 }
 
-.icons ul li {
+.icons li {
+  list-style: none;
   display: inline-block;
+}
+
+.fa {
+  list-style: none;
 }
 
 p {
