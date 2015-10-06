@@ -1,0 +1,111 @@
+html, h1, h2, h3, div {
+  display: block;
+  font-family: 'Work Sans', sans-serif;
+}
+
+header {
+  height: 65px;
+  background-color: white;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+}
+
+a {
+  font-size: 20px;
+  color: #01B5AA;
+}
+
+a:visited {
+  color: #01B5AA;
+}
+
+a:active {
+  color: #01B5AA;
+}
+
+hr {
+  color: turquoise;
+}
+
+.spaced-row {
+  padding: 10px 10px 80px;
+  /*margin-bottom: 10px;*/
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 0 5px 0;
+  padding-left: 5px;
+}
+
+.links {
+  float: right;
+  margin: 25px 0 0;
+}
+
+.name {
+  text-transform: uppercase;
+  font-size: 20px
+}
+
+.project-text {
+  font-size: 15px;
+}
+
+.bold {
+  font-weight: bolder;
+  color: black;
+}
+
+.tagline {
+  text-align: center;
+  margin: 10px 10px 15px 10px;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.title-text {
+  text-align: center;
+  margin: 10px 10px 15px 10px;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+
+.icons ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.icons ul li {
+  display: inline-block;
+}
+
+p {
+  font-size: 30px;
+  font-family: 'Muli', sans-serif;
+  color: gray;
+  margin: 0 0 10px;
+}
+
+section {
+  display: block;
+  padding: 120px 0 100px;
+}
+
+.bordered {
+  border: 2px solid white;
+  background: #E67247;
+  color: white;
+}
+
+.btn {
+  border-radius: 3px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+}

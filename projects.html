@@ -3,83 +3,117 @@
 <head>
   <meta charset="UTF-8">
   <title>CHRISTINE SCHATZ - projects</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
-  <link rel="stylesheet" type="text/css" href="stylesheets/projects.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,100,300,200,500,600,700,800,900" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link href='http://fonts.googleapis.com/css?family=Lato|Muli' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-
+  <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
 </head>
 
 
-<header class="main-header">
-  <ul id="left">
+<header>
+  <nav class="navbar">
+  <div class="container">
+    <div class="navbar-header nav-title">
+      <a class="navbar-brand name" href="#">Christine Schatz</a>
+    </div>
+    <ul id="left">
     <li><a href="https://github.com/ChristineSchatz/"><i class="fa fa-github "></i></a></li>
      <li> <a href="https://www.linkedin.com/in/christineschatz"><i class="fa fa-linkedin-square "></i></a></li>
-    <li> <a href="https://twitter.com/theloopla"><i class="fa fa-twitter "></i></a></li>
+    <li><a href="https://twitter.com/theloopla"><i class="fa fa-twitter "></i></a></li>
+    <nav class="links">
+      <li><a href="index.html">ABOUT</a></li>
+      <li><a href="#">BLOG</a></li>
+      <li><a href="projects.html">PROJECTS</a></li>
+      <li><a href="resume.html">RESUME</a></li>
     </ul>
-    <ul class="nav">
-      <a href="index.html"><li>ABOUT</li></a>
-      <a href="blog-home.html"><li>BLOG</li></a>
-      <a href="#"><li>PROJECTS</li></a>
-      <a href="resume.html"><li>RESUME</li></a>
-    </ul>
-  </header>
+    </nav>
+  </div>
+  </nav>
+</header>
 
-<div class="wrap">
-  <div class="main-content">
-    <div id="project-wrapper">
+<section id="projects">
+ <div class="container">
+  <div class="row spaced-row">
+    <div class="col-md-4">
       <div class="project-grid">
         <a href="https://code-hive.herokuapp.com"><img class="project-thumb" src="projects/hive.png" /></a>
       </div>
       <div class="project-description">
-        <div class="project-break"><a href="https://code-hive.herokuapp.com"><h3 class="mobile-header">The Hive</a> :: <a href="https://github.com/ChristineSchatz/the-hive" target="_blank">code</a></h3></div>
-        <div class="project-break"><p class="mobile-text">A social networking site where developers can find side projects to collaborate on.</p></div>
-        <div class="project-break"><p class="mobile-text"><span class="bold">Built with</span>: Ruby on Rails, JavaScript, Materialize</p></div>
-      </div>
-      <div class="project-grid">
-      <a href="projects/dog_racer/dog_swim.html"><img class="project-thumb" src="projects/dog-racer-thumb.jpg" /></a>
-      </div>
-      <div class="project-description">
-        <div class="project-break"><a href="projects/dog_racer/dog_swim.html"><h3 class="mobile-header">Corgi Racer :: <a href="https://github.com/ChristineSchatz/ChristineSchatz.github.io/blob/master/projects/dog_racer/racer.js" target="_blank">code</a></h3></a></div>
-        <div class="project-break"><p class="mobile-text">Simple two-player race to the "end-of-the-screen" game.</p></div>
-        <div class="project-break"><p class="mobile-text"><span class="bold">Built with</span>: jQuery, HTML, & CSS</p></div>
-      </div>
-      <div class="project-grid">
-        <a href="projects/sample-web/index.html"><img class="project-thumb" src="projects/sample-web.png" /></a>
-      </div>
-      <div class="project-description">
-        <div class="project-break"><a href="projects/sample-web/index.html"><h3 class="mobile-header">Sample "Business" Website</a></div>
-        <div class="project-break"><p class="mobile-text">A generic business website built to demonstrate design & UX sensibility</p></div>
-        <div class="project-break"><p class="mobile-text"><span class="bold">Built with</span>: HTML5, CSS3, & Bootstrap</p></div>
-      </div>
-      <div class="project-grid">
-      <a href="https://boiling-river-5937.herokuapp.com"><img class="project-thumb" src="projects/hacker-news.png" /></a>
-      </div>
-      <div class="project-description">
-        <div class="project-break"><a href="https://boiling-river-5937.herokuapp.com" target="_blank"><h3 class="mobile-header">Hacker News Clone</a> :: <a href="https://github.com/ChristineSchatz/hacker-news-clone" target="_blank">code</h3></div>
-        <div class="project-break"><p class="mobile-text">Simplified version of Hacker News.</p></div>
-        <div class="project-break"><p class="mobile-text"><span class="bold">Built with</span>: Ruby on Rails, AJAX, HTML, & CSS</p></div>
-      </div>
-      <div class="project-grid">
-      <a href="projects/js_quiz/80squiz.html"><img class="project-thumb" src="projects/btlchina_thumb.jpg" /></a>
-      </div>
-      <div class="project-description">
-        <div class="project-break"><a href="projects/js_quiz/80squiz.html"><h3 class="mobile-header">Movie Quiz</h3></a></div>
-        <div class="project-break"><p class="mobile-text">Simple question and answer quiz testing random 80s movie knowledge.</p></div>
-        <div class="project-break"><p class="mobile-text"><span class="bold">Built with</span>: (Vanilla) JavaScript, HTML, & CSS</p></div>
-      </div>
-      <div class="project-grid">
-        <img class="project-thumb" src="projects/frenchie_beach.jpg" />
+        <div><h3 class="mobile-header"><a href="https://code-hive.herokuapp.com">The Hive</a> :: <a href="https://github.com/ChristineSchatz/the-hive" target="_blank">code</a></h3>
         </div>
-      <div class="project-description">
-        <div class="project-break"><h3 class="mobile-header">Dog Name Generator (pending)</h3></div>
-        <div class="project-break"><p class="mobile-text">A single-page app that generates dog names</p></div>
-        <div class="project-break"><p class="mobile-text"><span class="bold">Built with</span>: AngularJS, HTML, & CSS</p></div>
+        <div><p class="project-text">A social networking site where developers can find side projects to collaborate on.</p></div>
+        <div><p class="project-text"><span class="bold">Built with</span>: Ruby on Rails, JavaScript, Materialize</p></div>
       </div>
+     </div> <!--end of col-->
+
+     <div class="col-md-4">
+        <div class="project-grid">
+        <a href="projects/dog_racer/dog_swim.html"><img class="project-thumb" src="projects/dog-racer-thumb.jpg" /></a>
+        </div>
+        <div class="project-description">
+          <div><h3 class="mobile-header"><a href="projects/dog_racer/dog_swim.html">Corgi Racer</a> :: <a href="https://github.com/ChristineSchatz/ChristineSchatz.github.io/blob/master/projects/dog_racer/racer.js" target="_blank">code</a></h3></div>
+          <div><p class="project-text">Simple two-player race to the "end-of-the-screen" game.</p></div>
+          <div><p class="project-text"><span class="bold">Built with</span>: jQuery, HTML, & CSS</p></div>
+        </div>
+      </div><!--end of col-->
+
+      <div class="col-md-4">
+        <div class="project-grid">
+          <a href="projects/sample-web/index.html"><img class="project-thumb" src="projects/sample-web.png" /></a>
+        </div>
+        <div class="project-description">
+          <div><h3 class="mobile-header"><a href="projects/sample-web/index.html">Sample "Business" Website</a></h3></div>
+          <div><p class="project-text">A generic business website built to demonstrate design & UX sensibility</p></div>
+          <div><p class="project-text"><span class="bold">Built with</span>: HTML5, CSS3, & Bootstrap</p></div>
+        </div>
+      </div>
+    <!--end row-->
     </div>
-   </div>
-  </div>
-</div>
+
+    <div class="row spaced-row">
+      <div class="col-md-4">
+        <div class="project-grid">
+        <a href="https://boiling-river-5937.herokuapp.com"><img class="project-thumb" src="projects/hacker-news.png" /></a>
+        </div>
+        <div class="project-description">
+          <div><h3 class="mobile-header"><a href="https://boiling-river-5937.herokuapp.com" target="_blank">Hacker News Clone</a> :: <a href="https://github.com/ChristineSchatz/hacker-news-clone" target="_blank">code</a></h3></div>
+          <div><p class="project-text">Simplified version of Hacker News.</p></div>
+          <div><p class="project-text"><span class="bold">Built with</span>: Ruby on Rails, AJAX, HTML, & CSS</p></div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="project-grid">
+        <a href="projects/js_quiz/80squiz.html"><img class="project-thumb" src="projects/btlchina_thumb.jpg" /></a>
+        </div>
+        <div class="project-description">
+          <div><h3 class="mobile-header"><a href="projects/js_quiz/80squiz.html">Movie Quiz</a></h3></div>
+          <div><p class="project-text">Simple question and answer quiz testing random 80s movie knowledge.</p></div>
+          <div><p class="project-text"><span class="bold">Built with</span>: (Vanilla) JavaScript, HTML, & CSS</p></div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="project-grid">
+          <img class="project-thumb" src="projects/frenchie_beach.jpg" />
+        </div>
+        <div class="project-description">
+          <div><h3 class="mobile-header"><a href="#">Dog Name Generator (pending)</a></h3></div>
+          <div><p class="project-text">A single-page app that generates dog names</p></div>
+          <div><p class="project-text"><span class="bold">Built with</span>: AngularJS, HTML, & CSS</p>
+          </div>
+        </div>
+      </div>
+    </div> <!--end row-->
+
+  </div> <!--end container-->
+</section>
 </html>
+
+
+
