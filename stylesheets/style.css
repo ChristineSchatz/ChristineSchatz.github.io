@@ -37,6 +37,10 @@ nav ul li {
   font-size: 20px
 }
 
+.project-text {
+  font-size: 15px;
+}
+
 .tagline {
   text-align: center;
   margin: 10px 10px 15px 10px;
