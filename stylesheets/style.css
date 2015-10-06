@@ -103,7 +103,12 @@ nav ul li {
 }
 
 .icons ul li {
+  list-style: none;
   display: inline-block;
+}
+
+.fa {
+  list-style: none;
 }
 
 p {
