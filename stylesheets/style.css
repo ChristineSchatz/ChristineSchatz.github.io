@@ -15,6 +15,7 @@ nav ul {
 
 a {
   font-size: 20px;
+  color: ;
 }
 
 hr {
@@ -22,7 +23,7 @@ hr {
 }
 
 .spaced-row {
-  padding-bottom: 45px;
+  padding: 10px 10px 80px;
   /*margin-bottom: 10px;*/
 }
 
