@@ -21,6 +21,11 @@ hr {
   color: turquoise;
 }
 
+.spaced-row {
+  padding-bottom: 45px;
+  /*margin-bottom: 10px;*/
+}
+
 nav ul li {
   display: inline-block;
   margin: 0 0 5px 0;
@@ -39,6 +44,11 @@ nav ul li {
 
 .project-text {
   font-size: 15px;
+}
+
+.bold {
+  font-weight: bolder;
+  color: black;
 }
 
 .tagline {
@@ -76,32 +86,6 @@ p {
 section {
   display: block;
   padding: 120px 0 100px;
-}
-
-#home .intro {
-  background-color: #34728F;
-  color: white;
-  text-align: center;
-}
-
-#home .intro h1 {
-  font-weight: 800;
-  font-size: 39px;
-  margin: 20px 0 30px;
-}
-
-#home .intro h2 {
-  font-size: 20px;
-  font-weight: 300;
-  margin: 0 0 80px;
-}
-
-#home .intro .btn {
-  margin: 0 0 20px;
-}
-
-#home #steps {
-  background-color: #E6E6E6;
 }
 
 .bordered {
