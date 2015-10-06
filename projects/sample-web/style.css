@@ -8,14 +8,41 @@ header {
   background-color: white;
 }
 
+nav ul {
+  list-style: none;
+  margin: 0;
+}
+
+hr {
+  color: turquoise;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 0 5px 0;
+  padding-left: 5px;
+}
+
+.links {
+  float: right;
+  margin: 25px 0 0;
+}
+
 .hello {
-  color: black;
+  color: #DF7401;
 }
 
 .tagline {
   text-align: center;
   margin: 10px 10px 15px 10px;
   padding-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.title-text {
+  text-align: center;
+  margin: 10px 10px 15px 10px;
+  padding-top: 10px;
   text-transform: uppercase;
 }
 
@@ -42,7 +69,7 @@ section {
 }
 
 #home .intro {
-  background-color: #395B6B;
+  background-color: #34728F;
   color: white;
   text-align: center;
 }
@@ -63,13 +90,13 @@ section {
   margin: 0 0 20px;
 }
 
-#home .signup {
-  background-color: #DBA901;
+#home #steps {
+  background-color: #E6E6E6;
 }
 
 .bordered {
   border: 2px solid white;
-  background: none;
+  background: #E67247;
   color: white;
 }
 
@@ -80,4 +107,64 @@ section {
   font-weight: 700;
 }
 
+.title {
+  text-align: center;
+  margin: 0 0 50px;
+}
 
+#steps {
+  background-image: url('graph.jpeg');
+  background-color: black;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 600px;
+  padding: 0;
+  width: 100%;
+  border-bottom: 2px solid gray;
+}
+
+.card {
+  background-color: #F8FCFF;
+  border-radius: 10px;
+}
+
+.signup-steps {
+  list-style: none;
+  margin: 0 0 0 80px;
+}
+
+.signup-steps li {
+  text-indent: -60px;
+  padding: 0;
+  margin: 15px 0 60px;
+}
+
+.signup-steps span {
+  vertical-align: middle;
+  font-size: 20px;
+  margin: 0 0 0 20px;
+}
+
+.btn-primary {
+  border: none;
+}
+
+.finance {
+  text-align: center;
+  padding: 20px;
+  color: #848484;
+}
+
+footer {
+  padding: 10px 0;
+  background-color: black;
+}
+
+p.footer-note {
+  color: white;
+}
+
+.informed {
+  text-align: center;
+  color: #0080FF;
+}
