@@ -13,6 +13,10 @@ nav ul {
   margin: 0;
 }
 
+a {
+  font-size: 20px;
+}
+
 hr {
   color: turquoise;
 }
@@ -28,8 +32,9 @@ nav ul li {
   margin: 25px 0 0;
 }
 
-.hello {
-  color: #DF7401;
+.name {
+  text-transform: uppercase;
+  font-size: 20px
 }
 
 .tagline {
