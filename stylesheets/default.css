@@ -47,6 +47,7 @@ body {
 .nav a {
   padding: .8em;
   display: block;
+  color: #01B5AA;
 }
 
 
@@ -96,6 +97,10 @@ body {
   font-size: 0.6em;
 }
 
+#project-wrapper a {
+  color: #9932CC;
+}
+
 #left {
   width: 200px;
   /*display: flex;
@@ -119,7 +124,7 @@ body {
 }
 
 a {
-  color: #01B5AA;
+  color: #9932CC;
   text-decoration: none;
 }
 
