@@ -33,14 +33,19 @@
 <section id="quiz">
   <div class="container">
     <div class="row">
-      <div class="col-md-9 col-md-offset-3">
+        <div class="col-md-10 col-md-offset-1 tagline">
+          <h3 class="big-trouble-header">Test Your 80's Movie Knowledge!</h3>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+    <div class="row">
      <form id="quiz" onsubmit="checkQuiz()">
-     <div class="quiz-header">
-       <h3 class="big-trouble-header">Test Your 80s Movie Knowledge!</h3>
+     <div class="col-md-4 quiz-header">
        <img src="btlchina.jpg" alt="big trouble in little china" />
-       <p class="example">Hint: Scene from which movie?</p>
+       <p class="quiz">Hint: Scene from which movie?</p>
      </div>
-
+    <div class="col-md-8 questions">
     <table>
     <tr>
     <td>1. From which movie is the quote "We're not gonna fall for a banana in the tailpipe!"?</td>
@@ -48,13 +53,13 @@
     <tr>
      <td>
      <input type="radio" name="question1" id="heathers" value="heathers" />
-     <p class="quiz"><label for="heathers">Heathers</label></p>
+     <label for="heathers">Heathers</label>
      <input type="radio" name="question1" id="bhcop" value="bhcop" />
-     <p class="quiz"><label for="bhcop">Beverly Hills Cop</label></p>
+     <label for="bhcop">Beverly Hills Cop</label>
      <input type="radio" name="question1" id="fasttimes" value="fasttimes" />
-     <p class="quiz"><label for="ft">Fast Times at Ridgemont High</label></p>
+     <label for="ft">Fast Times at Ridgemont High</label>
      <input type="radio" name="question1" id="breakfast" value="breakfast" />
-     <p class="quiz"><label for="bk">Breakfast Club</label></p>
+     <label for="bk">Breakfast Club</label>
      </td>
     </tr>
 
@@ -65,13 +70,13 @@
     <tr>
      <td>
      <input type="radio" name="question2" id="overboard" value="overboard" />
-     <p class="quiz"><label for="ob">Overboard</label></p>
+     <label for="ob">Overboard</label>
      <input type="radio" name="question2" id="btilc" value="bigtrouble" />
-     <p class="quiz"><label for="btilc">Big Trouble in Little China</label></p>
+     <label for="btilc">Big Trouble in Little China</label>
      <input type="radio" name="question2" id="thing" value="thing" />
-     <p class="quiz"><label for="thing">The Thing</label></p>
+     <label for="thing">The Thing</label>
      <input type="radio" name="question2" id="tequila" value="tequila" />
-     <p class="quiz"><label for="tequila">Tequila Sunrise</label></p>
+     <label for="tequila">Tequila Sunrise</label>
      </td>
     </tr>
 
@@ -82,13 +87,13 @@
     <tr>
      <td>
      <input type="radio" name="question3" id="lion" value="lion" />
-     <p class="quiz"><label for="lion">Lionheart</label></p>
+     <label for="lion">Lionheart</label>
      <input type="radio" name="question3" id="karate" value="karate" />
-     <p class="quiz"><label for="karate">Karate Kid</label></p>
+     <label for="karate">Karate Kid</label>
      <input type="radio" name="question3" id="bloodsport" value="bloodsport" />
-     <p class="quiz"><label for="bloodsport">Bloodsport</label></p>
+     <label for="bloodsport">Bloodsport</label>
      <input type="radio" name="question3" id="ots" value="ots" />
-     <p class="quiz"><label for="ots">Only the Strong</label></p>
+     <label for="ots">Only the Strong</label>
      </td>
     </tr>
 
@@ -98,13 +103,13 @@
     <tr>
      <td>
      <input type="radio" name="question4" id="mj" value="mj" />
-     <p class="quiz"><label for="mj">Michael J. Fox</label></p>
+     <label for="mj">Michael J. Fox</label>
      <input type="radio" name="question4" id="estoltz" value="estoltz" />
-     <p class="quiz"><label for="estoltz">Eric Stoltz</label></p>
+     <label for="estoltz">Eric Stoltz</label>
      <input type="radio" name="question4" id="niccage" value="niccage" />
-     <p class="quiz"><label for="nc">Nicolas Cage</label></p>
+     <label for="nc">Nicolas Cage</label>
      <input type="radio" name="question4" id="cusack" value="cusack" />
-     <p class="quiz"><label for="cusack">John Cusack</label></p>
+     <label for="cusack">John Cusack</label>
      </td>
     </tr>
 
@@ -114,13 +119,13 @@
     <tr>
      <td>
      <input type="radio" name="question5" id="ss" value="ss" />
-     <p class="quiz"><label for="ss">Stephen Spielberg</label></p>
+     <label for="ss">Stephen Spielberg</label>
      <input type="radio" name="question5" id="tb" value="tb" />
-     <p class="quiz"><label for="tb">Tim Burton</label></p>
+     <label for="tb">Tim Burton</label>
      <input type="radio" name="question5" id="rscott" value="rscott" />
-     <p class="quiz"><label for="rscott">Ridley Scott</label></p>
+     <label for="rscott">Ridley Scott</label>
      <input type="radio" name="question5" id="jc" value="jc" />
-     <p class="quiz"><label for="jc">James Cameron</label></p>
+     <label for="jc">James Cameron</label>
      </td>
      </tr>
 
@@ -135,15 +140,17 @@
      <input type="hidden" name="answer5" value="rscott" />
      <!--end main -->
      </table>
-     <div class="submit">
-          <input type="reset" class="button" name="clear" id="clear" value="Clear" />
-          <input onclick="checkQuiz()" type="button" class="button" name="send" id="button" value="Submit" />
+     <div class="row">
+       <div class="submit">
+            <input type="reset" class="btn btn-primary" name="clear" id="clear" value="Clear" />
+            <input onclick="checkQuiz()" type="button" class="btn btn-primary" name="send" id="button" value="Submit" />
+        </div>
       </div>
      </form>
     </div>
+  </div>
     <!--end col-md-->
-   </div>
-</div>
+
 </section>
 </body>
 </html>

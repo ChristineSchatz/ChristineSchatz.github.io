@@ -81,6 +81,7 @@ nav ul li {
 }
 
 .tagline {
+  color: #2196F3;
   text-align: center;
   margin: 10px 10px 15px 10px;
   padding-bottom: 40px;
@@ -134,4 +135,16 @@ section {
   font-size: 15px;
   padding: 0;
   margin: 0;
+}
+
+.submit {
+  text-align: center;
+}
+
+td, tr {
+  padding: 10px;
+}
+
+.questions {
+  float: right;
 }
