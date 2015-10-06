@@ -129,3 +129,9 @@ section {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+.quiz {
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
