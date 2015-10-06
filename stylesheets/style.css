@@ -1,4 +1,4 @@
-html, h1, h2, h3, div {
+html, h1, h2, h3, div, body {
   display: block;
   font-family: 'Work Sans', sans-serif;
 }
@@ -8,22 +8,42 @@ header {
   background-color: white;
 }
 
+header h3 {
+  display: inline-block;
+  font-size: 18px;
+  color: #2196F3;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+nav {
+  float: right;
+  margin: 25px 0 0;
+}
+
 nav ul {
   list-style: none;
   margin: 0;
 }
 
+nav li {
+  float: left;
+  margin: 0;
+  padding: 10px;
+}
+
 a {
   font-size: 20px;
-  color: #01B5AA;
+  color: #2196F3;
 }
 
 a:visited {
-  color: #01B5AA;
+  color: #2196F3;
 }
 
 a:active {
-  color: #01B5AA;
+  color: #2196F3;
 }
 
 hr {
