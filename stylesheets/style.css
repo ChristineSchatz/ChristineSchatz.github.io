@@ -36,14 +36,22 @@ nav li {
 a {
   font-size: 20px;
   color: #2196F3;
+  text-decoration: none;
 }
 
 a:visited {
   color: #2196F3;
+  text-decoration: none;
 }
 
 a:active {
   color: #2196F3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
 }
 
 hr {
