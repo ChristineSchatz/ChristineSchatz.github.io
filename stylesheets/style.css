@@ -36,14 +36,22 @@ nav li {
 a {
   font-size: 20px;
   color: #2196F3;
+  text-decoration: none;
 }
 
 a:visited {
   color: #2196F3;
+  text-decoration: none;
 }
 
 a:active {
   color: #2196F3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
 }
 
 hr {
@@ -152,4 +160,78 @@ td, tr {
 
 .questions {
   float: right;
+}
+
+/* corgi game css */
+
+#corgi {
+  background-image: url("../projects/dog_racer/beach.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Muli', sans-serif;
+  font-size: 1.5em;
+   /*display: block;*/
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h2  {
+  color: white;
+  text-align: center;
+  font-family:  'Lato', sans-serif;
+  font-family: 'Muli', sans-serif;
+}
+
+#playerA {
+  margin-left: 0;
+}
+
+#playerB {
+  margin-left: 0;
+}
+
+#track1 {
+  position: relative;
+  left: 10px;
+}
+
+#board {
+  position: fixed;
+  bottom: 0;
+  width: 90%;
+}
+
+#begin {
+  margin: 0 auto;
+  width:90px;
+  display: block;
+  font-size:20px;
+  font-weight:700;
+  color:#fff;
+  line-height:35px;
+  background:url(../images/button_form.gif) top repeat-x #308da2;
+  border-radius:10px;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;behavior:url(js/PIE.htc);
+  position:relative;
+  text-decoration:none;
+}
+
+#result {
+  width: 100%;
+  text-align: center;
+}
+
+.instructions {
+  color: white;
+  width: 100%;
+  text-align: center;
+
 }
