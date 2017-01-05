@@ -162,10 +162,10 @@ td, tr {
   float: right;
 }
 
-/* corgi game css */
+/* crab racer styles */
 
-#corgi {
-  background-image: url("../projects/dog_racer/beach.jpg");
+.beach-racer {
+  background-image: url("../projects/crab_racer/beach_racer.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   font-family: 'Lato', sans-serif;
@@ -197,26 +197,20 @@ h2  {
   margin-left: 0;
 }
 
-#track1 {
-  position: relative;
-  left: 10px;
-}
-
 #board {
   position: fixed;
   bottom: 0;
   width: 90%;
 }
 
-#begin {
+.instructions#begin {
   margin: 0 auto;
-  width:90px;
+  width: 90px;
   display: block;
   font-size:20px;
   font-weight:700;
   color:#fff;
   line-height:35px;
-  background:url(../images/button_form.gif) top repeat-x #308da2;
   border-radius:10px;
   -moz-border-radius:10px;
   -webkit-border-radius:10px;behavior:url(js/PIE.htc);
@@ -232,6 +226,5 @@ h2  {
 .instructions {
   color: white;
   width: 100%;
-  text-align: center;
-
+  text-align: left;
 }
