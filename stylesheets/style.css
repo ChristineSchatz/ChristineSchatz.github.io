@@ -14,7 +14,7 @@ header h3 {
   color: #2196F3;
   letter-spacing: 4px;
   text-transform: uppercase;
-  margin: 20px 0;
+  margin: 35px 0;
 }
 
 nav {
@@ -218,13 +218,20 @@ h2  {
   text-decoration:none;
 }
 
-#result {
+#result, .instructions {
   width: 100%;
+  color: white;
   text-align: center;
+  font-size: 25px;
 }
 
 .instructions {
-  color: white;
-  width: 100%;
-  text-align: left;
+  display: inline-block;
+}
+
+.instructions #begin {
+  background-color: beige;
+  border-radius: 10px;
+  color: gray;
+  font-size: 18px;
 }
