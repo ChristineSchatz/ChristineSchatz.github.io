@@ -1,0 +1,163 @@
+/* fonts */
+@font-face { font-family: 'Slim Joe'; src: url('../fonts/Slim Joe.otf');
+}
+
+.wrap {
+  min-width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 1.5em !important;
+}
+
+body {
+   background-color: #FFFFFF;
+   height: 100%;
+   font-family: 'Lato', sans-serif;
+   font-family: 'Muli', sans-serif;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-position: left;
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   color: black;
+}
+
+.main-content {
+  padding-top: 40px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+  font-family: 'Muli', sans-serif;
+}
+
+.wrap p {
+  font-size: 18px;
+}
+
+.emphasis {
+  color: #01B5AA;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+h4, h3 {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Muli', sans-serif;
+  color:black;
+  padding: 5px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h2 {
+  color: black;
+}
+
+h5 {
+  color: gray;
+  text-align: center;
+}
+
+h6 {
+  color: gray;
+  padding: 4px;
+  text-align: center;
+}
+
+.emphasis {
+  color: #1BA2CB;
+  font-family: 'Courier', Open-Sans, sans-serif;
+}
+
+.strategies {
+  font-size: 0.7em;
+  font-family: 'Courier', Open-Sans, sans-serif;
+  color: red;
+}
+
+.caption {
+  font-size: 15px;
+}
+
+.caption a {
+  font-size: 15px;
+}
+
+#date {
+  font-style: italic;
+  text-align: center;
+}
+
+.inner-content li {
+  display: inline;
+}
+
+.blog_list li {
+  font-size: 0.7em;
+  padding-top: 10px;
+}
+
+.blog_list a {
+  color: #1BA2CB;
+  font-size: 0.7em;
+}
+
+.list {
+  margin: 0 auto;
+  width: 500px;
+  font-size: 0.6em;
+}
+
+p {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Muli', sans-serif;
+  font-size: 0.7em;
+  text-align: justify;
+}
+
+.blogcontent {
+  padding: 40px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+#blog-home-content {
+  text-align: center;
+  border: 1px dashed gray;
+  margin:0 auto;
+  width: 85%;
+  position: relative;
+  color: black;
+  background-color: #FFFFFF;
+  overflow: scroll;
+  margin-bottom: 40px;
+}
+
+pre {
+  font-size: 0.7em;
+  background-color: beige;
+}
+
+
+
