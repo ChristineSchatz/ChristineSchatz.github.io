@@ -66,7 +66,7 @@
          <pre>/st/.match('haystack') #=> "st"</pre><br>
 
         <p>
-          Now things get a little trickier. Let's look at an example using regex match and replace. I found an excellent example from the lovely <a href="http://feministy.tumblr.com/post/49871223911/lets-talk-about-why-this-works">Liz Abanante's</a> blog! We want to separate an integer with commas every 3rd integer, so that 100000 would output to 100,000. [This is one of the challenges we were given!]
+          Now things get a little trickier. Let's look at an example using regex match and replace. I found an excellent example from the lovely Liz Abanante's blog! We want to separate an integer with commas every 3rd integer, so that 100000 would output to 100,000. [This is one of the challenges we were given!]
         </p><br>
         <p>Let's say Liz has a method called separate_comma, and it could look like this:</p><br>
         <pre>
@@ -80,7 +80,7 @@
           num.reverse.gsub(/...
         </pre><br>
         <p>calls for 3 consecutive "anything" characters. It then uses the (?=.) expression to *find* these anything characters. We then substitute /...(?=.)/ with a comma: '\&,'  (\& is the matched text!)</p>
-        <p>Hope that made sense! If you want to read the full article from Liz's blog, it's right here: <a href="http://feministy.tumblr.com/post/49871223911/lets-talk-about-why-this-works">http://feministy.tumblr.com/post/49871223911/lets-talk-about-why-this-works</a></p><br>
+        <p>Hope that made sense! For more examples, see Ruby's official docs: <a href="https://ruby-doc.org/core-2.2.0/Regexp.html" target="_blank">https://ruby-doc.org/core-2.2.0/Regexp.html</a></p><br>
         <p>That's it for now! Thanks for reading.
        </div>
     </div>
