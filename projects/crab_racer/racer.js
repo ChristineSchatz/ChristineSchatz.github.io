@@ -11,7 +11,7 @@ $(document).ready(function() {
 
    $('#begin').on('click', function() {
     $(this).hide();
-    console.log("is antyhing happening");
+
     $('.instructions').hide();
      $(playerA.name).css('margin-left',"0")
      $(playerB.name).css('margin-left',"0")
