@@ -1,4 +1,8 @@
-html, h1, h2, h3, div {
+html,
+h1,
+h2,
+h3,
+div {
   display: block;
   font-family: 'Work Sans', sans-serif;
 }
@@ -29,7 +33,7 @@ nav ul li {
 }
 
 .hello {
-  color: #DF7401;
+  color: #df7401;
 }
 
 .tagline {
@@ -58,7 +62,6 @@ nav ul li {
 }
 
 p {
-  width: 370px;
   height: 120px;
   margin: 0 0 10px;
 }
@@ -69,7 +72,7 @@ section {
 }
 
 #home .intro {
-  background-color: #34728F;
+  background-color: #34728f;
   color: white;
   text-align: center;
 }
@@ -91,12 +94,12 @@ section {
 }
 
 #home #steps {
-  background-color: #E6E6E6;
+  background-color: #e6e6e6;
 }
 
 .bordered {
   border: 2px solid white;
-  background: #E67247;
+  background: #e67247;
   color: white;
 }
 
@@ -124,13 +127,14 @@ section {
 }
 
 .card {
-  background-color: #F8FCFF;
+  background-color: #f8fcff;
   border-radius: 10px;
 }
 
 .signup-steps {
+  padding: 10px 5px 10px 0;
   list-style: none;
-  margin: 0 0 0 80px;
+  margin: 0 10px 0 80px;
 }
 
 .signup-steps li {
@@ -166,5 +170,5 @@ p.footer-note {
 
 .informed {
   text-align: center;
-  color: #0080FF;
+  color: #0080ff;
 }

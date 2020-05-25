@@ -1,54 +1,106 @@
 <!DOCTYPE html>
 <html>
-<head>
- <meta charset="UTF-8">
-  <title>CHRISTINE SCHATZ - blog</title>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,100,300,200,500,600,700,800,900" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CHRISTINE SCHATZ - blog</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans:400,100,300,200,500,600,700,800,900"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css" />
+    <link rel="stylesheet" type="text/css" href="../stylesheets/style.css" />
 
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link href='http://fonts.googleapis.com/css?family=Lato|Muli' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
-</head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Muli"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Permanent+Marker"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
 
-<header>
-  <div class="container">
-    <h3 class="nav-name">Christine Schatz</h3>
-    <nav>
-      <ul>
-        <li><a href="../index.html">ABOUT</a></li>
-        <li><a href="../projects.html">PROJECTS</a></li>
-        <li><a href="../blog-home.html">BLOG</a></li>
-        <li><a href="../resume.html">RESUME</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+  <header>
+    <div class="container">
+      <h3 class="nav-name">Christine Schatz</h3>
+      <nav>
+        <ul>
+          <li><a href="../index.html">ABOUT</a></li>
+          <li><a href="../projects.html">PROJECTS</a></li>
+          <li><a href="../blog-home.html">BLOG</a></li>
+          <li><a href="../resume.html">RESUME</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-
-<div class="wrap">
+  <div class="wrap">
     <div id="page_content">
       <div class="blogcontent">
         <h4>Blocks, Procs, and Lambdas</h4>
         <h5>Also known as "closures"</h5>
         <p id="date">May 17, 2015</p>
-        <br>
-        <p> Ruby <span class="emphasis">blocks, procs,</span> and <span class="emphasis">lambdas</span> are basically closures. In Ruby, we've already seen one of them many times: <span class="emphasis">blocks</span>! Whenever we use an enumerable, such as each or map, we are sending a block of code to the Array or object we are calling the enumberable method on. For example, our block here is the code between the brackets:
-        </p><br>
-        <img src="../blog_photos/block.png" /><br>
-        <h5>What's up with Procs?</h5><br>
-        <p><span class="emphasis">Procs</span>, aka Procedures, come in handy when we want to use a block over and over again. We don't want to have to repeat ourselves, so we can actually save a reusable chunk of code as an object itself, which is a <span class="emphasis">Proc</span>! Technically, a block is a <span class="emphasis">Proc</span> (and a <span class="emphasis">Proc</span> is a block?! yes), but it's a "reduced," temporary version that makes it easy for us to use methods like each and select. Procs are the real deal - think of them as more permanent, portable chunks of code. You can save <span class="emphasis">Procs</span> to a variable, like so:</p><br>
-        <img src="../blog_photos/proc.png" /><br>
-        <h5>Lambdas!</h5><br>
-        <p>Lastly, we have <span class="emphasis">lambdas</span>, which we'll see a little less typically. Lambdas are basically functions. They are comparable to what's known as the anonymous function in JavaScript. They check the number of arguments passed and their last expression is a return value. Returns will <span class="emphasis">return</span> only from the lambda itself, not from the method it's enclosed in (if it's enclosed in a method at all). Let's say we have an area in our code where we want to return 5 if our made up game needed our flavor to be "cherry": </p><br>
-        <img src="../blog_photos/lambda.png" /><br>
-        <p>This lambda will return 5 since our argument is indeed "cherry." I'll stop here. We won't be using these concepts for a while, but I learned a little about each and hope you did, too!</p>
-       </div>
+        <br />
+        <p>
+          Ruby <span class="emphasis">blocks, procs,</span> and
+          <span class="emphasis">lambdas</span> are basically closures. In Ruby,
+          we've already seen one of them many times:
+          <span class="emphasis">blocks</span>! Whenever we use an enumerable,
+          such as each or map, we are sending a block of code to the Array or
+          object we are calling the enumberable method on. For example, our
+          block here is the code between the brackets:
+        </p>
+        <br />
+        <img src="../blog_photos/block.png" /><br />
+        <h5>What's up with Procs?</h5>
+        <br />
+        <p>
+          <span class="emphasis">Procs</span>, aka Procedures, come in handy
+          when we want to use a block over and over again. We don't want to have
+          to repeat ourselves, so we can actually save a reusable chunk of code
+          as an object itself, which is a <span class="emphasis">Proc</span>!
+          Technically, a block is a <span class="emphasis">Proc</span> (and a
+          <span class="emphasis">Proc</span> is a block?! yes), but it's a
+          "reduced," temporary version that makes it easy for us to use methods
+          like each and select. Procs are the real deal - think of them as more
+          permanent, portable chunks of code. You can save
+          <span class="emphasis">Procs</span> to a variable, like so:
+        </p>
+        <br />
+        <img src="../blog_photos/proc.png" /><br />
+        <h5>Lambdas!</h5>
+        <br />
+        <p>
+          Lastly, we have <span class="emphasis">lambdas</span>, which we'll see
+          a little less typically. Lambdas are basically functions. They are
+          comparable to what's known as the anonymous function in JavaScript.
+          They check the number of arguments passed and their last expression is
+          a return value. Returns will <span class="emphasis">return</span> only
+          from the lambda itself, not from the method it's enclosed in (if it's
+          enclosed in a method at all). Let's say we have an area in our code
+          where we want to return 5 if our made up game needed our flavor to be
+          "cherry":
+        </p>
+        <br />
+        <img src="../blog_photos/lambda.png" /><br />
+        <p>
+          This lambda will return 5 since our argument is indeed "cherry." I'll
+          stop here. We won't be using these concepts for a while, but I learned
+          a little about each and hope you did, too!
+        </p>
+      </div>
     </div>
-</div>
-
-
+  </div>
 </html>

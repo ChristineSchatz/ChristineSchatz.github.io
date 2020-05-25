@@ -1,89 +1,182 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>CHRISTINE SCHATZ - blog</title>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,100,300,200,500,600,700,800,900" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CHRISTINE SCHATZ - blog</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans:400,100,300,200,500,600,700,800,900"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css" />
+    <link rel="stylesheet" type="text/css" href="../stylesheets/style.css" />
 
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link href='http://fonts.googleapis.com/css?family=Lato|Muli' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
-</head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Muli"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Permanent+Marker"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
 
+  <header>
+    <div class="container">
+      <h3 class="nav-name">Christine Schatz</h3>
+      <nav>
+        <ul>
+          <li><a href="../index.html">ABOUT</a></li>
+          <li><a href="../projects.html">PROJECTS</a></li>
+          <li><a href="../blog-home.html">BLOG</a></li>
+          <li><a href="../resume.html">RESUME</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-<header>
-  <div class="container">
-    <h3 class="nav-name">Christine Schatz</h3>
-    <nav>
-      <ul>
-        <li><a href="../index.html">ABOUT</a></li>
-        <li><a href="../projects.html">PROJECTS</a></li>
-        <li><a href="../blog-home.html">BLOG</a></li>
-        <li><a href="../resume.html">RESUME</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
-<div class="wrap">
+  <div class="wrap">
     <div id="page_content">
       <div class="blogcontent">
         <h4>Regular Expressions</h4>
         <h5>aka "regex"</h5>
-        <p id="date">May 31, 2015</p><br>
-        <p>I've been interested in Regular Expressions for a while now, especially since I've always seen them used frequently in solutions on Stack Overflow. Very briefly defined, a <span class="emphasis">regular expression</span> is a sequence of characters that defines a search pattern. You'll see them used mostly for string matching.
+        <p id="date">May 31, 2015</p>
+        <br />
+        <p>
+          I've been interested in Regular Expressions for a while now,
+          especially since I've always seen them used frequently in solutions on
+          Stack Overflow. Very briefly defined, a
+          <span class="emphasis">regular expression</span> is a sequence of
+          characters that defines a search pattern. You'll see them used mostly
+          for string matching.
         </p>
-        <br>
-        <p>If you've ever seen anything like this: <span class="emphasis">\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b</span>, it can look pretty intimidating! But I'll try to break it down with some simple examples sourced from a couple great websites.
-        </p><br>
+        <br />
+        <p>
+          If you've ever seen anything like this:
+          <span class="emphasis"
+            >\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b</span
+          >, it can look pretty intimidating! But I'll try to break it down with
+          some simple examples sourced from a couple great websites.
+        </p>
+        <br />
 
-        <p>Firstly, it's VERY important to know what the symbols of regex stand for. Jeffrey Way of Tuts Plus suggests memorizing them. No other way around it: </p><br>
+        <p>
+          Firstly, it's VERY important to know what the symbols of regex stand
+          for. Jeffrey Way of Tuts Plus suggests memorizing them. No other way
+          around it:
+        </p>
+        <br />
 
         <ul>
           <li class="list">. - Matches any character, except newline.</li>
-          <li class="list">* - Matches 0 or more of the preceding character.</li>
-          <li class="list">+ - Matches 1 or more of the preceding character.</li>
-          <li class="list">? - Preceding character is optional. Matches 0 or 1 occurrence.</li>
+          <li class="list">
+            * - Matches 0 or more of the preceding character.
+          </li>
+          <li class="list">
+            + - Matches 1 or more of the preceding character.
+          </li>
+          <li class="list">
+            ? - Preceding character is optional. Matches 0 or 1 occurrence.
+          </li>
           <li class="list">\d - Matches any single digit</li>
-          <li class="list">\w - Matches any word character (alphanumeric & underscore).</li>
-          <li class="list">[XYZ] - Matches any single character from the character class.</li>
-          <li class="list">[XYZ]+ - Matches one or more of any of the characters in the set.</li>
+          <li class="list">
+            \w - Matches any word character (alphanumeric & underscore).
+          </li>
+          <li class="list">
+            [XYZ] - Matches any single character from the character class.
+          </li>
+          <li class="list">
+            [XYZ]+ - Matches one or more of any of the characters in the set.
+          </li>
           <li class="list">$ - Matches the end of the string.</li>
           <li class="list">^ - Matches the beginning of a string.</li>
-          <li class="list">[^a-z] - When inside of a character class, the ^ means NOT; in this case, match anything that is NOT a lowercase letter.</li>
+          <li class="list">
+            [^a-z] - When inside of a character class, the ^ means NOT; in this
+            case, match anything that is NOT a lowercase letter.
+          </li>
         </ul>
 
-        <caption><span class="caption">Source: <a href="http://code.tutsplus.com/tutorials/you-dont-know-anything-about-regular-expressions-a-complete-guide--net-7869" target="_blank">TutsPlus</a></span></caption><br>
-        <br>
-        <p>Let's start with a really simple example. Here, we are looking for the word "ruby" in the phrase on the right side of the =~ operator. If found, it returns the index where the first instance is found. You can also use .match() in place of =~.
-        </p><br>
+        <caption>
+          <span class="caption"
+            >Source:
+            <a
+              href="http://code.tutsplus.com/tutorials/you-dont-know-anything-about-regular-expressions-a-complete-guide--net-7869"
+              target="_blank"
+              >TutsPlus</a
+            ></span
+          >
+        </caption>
+        <br />
+        <br />
+        <p>
+          Let's start with a really simple example. Here, we are looking for the
+          word "ruby" in the phrase on the right side of the =~ operator. If
+          found, it returns the index where the first instance is found. You can
+          also use .match() in place of =~.
+        </p>
+        <br />
         <pre>/ruby/ =~ "I'm using Ruby!" #=> 8</pre>
         <pre>/costa rica/.match("We're going to New York.") #=> nil</pre>
-         <pre>/st/.match('haystack') #=> "st"</pre><br>
+        <pre>/st/.match('haystack') #=> "st"</pre>
+        <br />
 
         <p>
-          Now things get a little trickier. Let's look at an example using regex match and replace. I found an excellent example from the lovely Liz Abanante's blog! We want to separate an integer with commas every 3rd integer, so that 100000 would output to 100,000. [This is one of the challenges we were given!]
-        </p><br>
-        <p>Let's say Liz has a method called separate_comma, and it could look like this:</p><br>
+          Now things get a little trickier. Let's look at an example using regex
+          match and replace. I found an excellent example from the lovely Liz
+          Abanante's blog! We want to separate an integer with commas every 3rd
+          integer, so that 100000 would output to 100,000. [This is one of the
+          challenges we were given!]
+        </p>
+        <br />
+        <p>
+          Let's say Liz has a method called separate_comma, and it could look
+          like this:
+        </p>
+        <br />
         <pre>
           def separate_comma(number)
             comma_num = number.to_s
             comma_num.reverse.gsub(/...(?=.)/, '\&,').reverse
           end
-           </pre><br>
-        <p>How does this work? Well, firstly, gsub means global substitution. It takes two arguments, the first of which is our match, and the second is what we want to replace that with. The . (period) in regex can mean anything! So:</p><br>
+           </pre
+        >
+        <br />
+        <p>
+          How does this work? Well, firstly, gsub means global substitution. It
+          takes two arguments, the first of which is our match, and the second
+          is what we want to replace that with. The . (period) in regex can mean
+          anything! So:
+        </p>
+        <br />
         <pre>
           num.reverse.gsub(/...
-        </pre><br>
-        <p>calls for 3 consecutive "anything" characters. It then uses the (?=.) expression to *find* these anything characters. We then substitute /...(?=.)/ with a comma: '\&,'  (\& is the matched text!)</p>
-        <p>Hope that made sense! For more examples, see Ruby's official docs: <a href="https://ruby-doc.org/core-2.2.0/Regexp.html" target="_blank">https://ruby-doc.org/core-2.2.0/Regexp.html</a></p><br>
-        <p>That's it for now! Thanks for reading.
-       </div>
+        </pre>
+        <br />
+        <p>
+          calls for 3 consecutive "anything" characters. It then uses the (?=.)
+          expression to *find* these anything characters. We then substitute
+          /...(?=.)/ with a comma: '\&,' (\& is the matched text!)
+        </p>
+        <p>
+          Hope that made sense! For more examples, see Ruby's official docs:
+          <a href="https://ruby-doc.org/core-2.2.0/Regexp.html" target="_blank"
+            >https://ruby-doc.org/core-2.2.0/Regexp.html</a
+          >
+        </p>
+        <br />
+        <p>That's it for now! Thanks for reading.</p>
+      </div>
     </div>
-</div>
-
+  </div>
 </html>

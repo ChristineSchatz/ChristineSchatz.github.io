@@ -1,79 +1,146 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>CHRISTINE SCHATZ - blog</title>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,100,300,200,500,600,700,800,900" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CHRISTINE SCHATZ - blog</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans:400,100,300,200,500,600,700,800,900"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css" />
+    <link rel="stylesheet" type="text/css" href="../stylesheets/style.css" />
 
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link href='http://fonts.googleapis.com/css?family=Lato|Muli' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
-</head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <link
+      href="httpss://fonts.googleapis.com/css?family=Lato|Muli"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Permanent+Marker"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
 
+  <header>
+    <div class="container">
+      <h3 class="nav-name">Christine Schatz</h3>
+      <nav>
+        <ul>
+          <li><a href="../index.html">ABOUT</a></li>
+          <li><a href="../projects.html">PROJECTS</a></li>
+          <li><a href="../blog-home.html">BLOG</a></li>
+          <li><a href="../resume.html">RESUME</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-<header>
-  <div class="container">
-    <h3 class="nav-name">Christine Schatz</h3>
-    <nav>
-      <ul>
-        <li><a href="../index.html">ABOUT</a></li>
-        <li><a href="../projects.html">PROJECTS</a></li>
-        <li><a href="../blog-home.html">BLOG</a></li>
-        <li><a href="../resume.html">RESUME</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
-
-<div class="wrap">
+  <div class="wrap">
     <div id="page_content">
       <div class="blogcontent">
         <h4>Arrays vs Hashes</h4>
         <h5>When to use each</h5>
         <p id="date">April 25, 2015</p>
-        <br>
-        <p> Arrays are ordered collections of objects, be it strings, numbers, or arrays themselves! Hashes are collections, too, but they're unordered and utilize key-value pairs.
-        </p><br>
-        <p>In Ruby, you can initialize arrays with the new method or implicitly, by populating them</p>
-        <br>
+        <br />
+        <p>
+          Arrays are ordered collections of objects, be it strings, numbers, or
+          arrays themselves! Hashes are collections, too, but they're unordered
+          and utilize key-value pairs.
+        </p>
+        <br />
+        <p>
+          In Ruby, you can initialize arrays with the new method or implicitly,
+          by populating them
+        </p>
+        <br />
         <pre>ingredients = Array.new</pre>
-        <pre>ingredients = ["shrimp", "cumin", "chicken", "avocado", "cilantro"]</pre>
-        <pre>players = ["Joakim Noah", "Nate Robinson", "Tim Duncan", "Paul Pierce"]</pre>
-        <br>
-        <p>Arrays are indexed by integers, starting at 0. If you wanted to access "Nate Robinson" from the players array, you would do it like so:</p><br>
+        <pre>
+ingredients = ["shrimp", "cumin", "chicken", "avocado", "cilantro"]</pre
+        >
+        <pre>
+players = ["Joakim Noah", "Nate Robinson", "Tim Duncan", "Paul Pierce"]</pre
+        >
+        <br />
+        <p>
+          Arrays are indexed by integers, starting at 0. If you wanted to access
+          "Nate Robinson" from the players array, you would do it like so:
+        </p>
+        <br />
         <pre>players[1]</pre>
-        <br>
-        <p>Ruby has really convenient class methods for Arrays. You can access the first or last element of an array easily by calling <strong>(whatever's after the # symbol is just a comment in Ruby. I just want to show you what will be returned from the method):</strong></p><br>
+        <br />
+        <p>
+          Ruby has really convenient class methods for Arrays. You can access
+          the first or last element of an array easily by calling
+          <strong
+            >(whatever's after the # symbol is just a comment in Ruby. I just
+            want to show you what will be returned from the method):</strong
+          >
+        </p>
+        <br />
         <pre>ingredients.first #=> "shrimp" </pre>
-        <pre>ingredients.last #=> "cilantro" </pre><br>
-        <p>You can even return the first n elements of an array:</p><br>
-        <pre>ingredients.take(2) #=> ["shrimp", "cumin"]</pre><br>
-        <p>Arrays can also be counted easily or checked for emptiness by:</p><br>
+        <pre>ingredients.last #=> "cilantro" </pre>
+        <br />
+        <p>You can even return the first n elements of an array:</p>
+        <br />
+        <pre>ingredients.take(2) #=> ["shrimp", "cumin"]</pre>
+        <br />
+        <p>Arrays can also be counted easily or checked for emptiness by:</p>
+        <br />
         <pre>ingredients.length #=> 5</pre>
         <pre>ingredients.count #=> 5</pre>
-        <pre>ingredients.empty? #=> false</pre><br>
+        <pre>ingredients.empty? #=> false</pre>
+        <br />
 
-        <p>Let's move on to hashes for now. While arrays are awesome at keeping your elements organized, hashes are great for a different type of organization. Instead of using integers to access your values, you can use any object type to do so. For example, let's initialize a hash called population. We'll initialize it implicitly, without the "new" keyword.</p>
-        <br>
-        <pre>population = {"Tiny Farm Town" => 1,000, "Suburban" => 20,000, <br>"Gentrified Brooklyn" => 1,000,000}</pre><br>
-        <p>You can also use what are called symbols as the keys. Symbols are preceded with a colon. You still use "#=>" to point to your value, like so:</p><br>
-        <pre>population = { :tiny_farm => 1,000}</pre><br>
-        <p>Or you can do this and forget about the "=>":</p><br>
-        <pre>population = { tiny_farm: 1000, suburban: 20,000, gentrified_brooklyn:<br>1,000,000}</pre><br>
-        <p>You can populate a Hash differently, one by one, like this:</p><br>
+        <p>
+          Let's move on to hashes for now. While arrays are awesome at keeping
+          your elements organized, hashes are great for a different type of
+          organization. Instead of using integers to access your values, you can
+          use any object type to do so. For example, let's initialize a hash
+          called population. We'll initialize it implicitly, without the "new"
+          keyword.
+        </p>
+        <br />
+        <pre>population = {"Tiny Farm Town" => 1,000, "Suburban" => 20,000, <br>"Gentrified Brooklyn" => 1,000,000}</pre>
+        <br />
+        <p>
+          You can also use what are called symbols as the keys. Symbols are
+          preceded with a colon. You still use "#=>" to point to your value,
+          like so:
+        </p>
+        <br />
+        <pre>population = { :tiny_farm => 1,000}</pre>
+        <br />
+        <p>Or you can do this and forget about the "=>":</p>
+        <br />
+        <pre>population = { tiny_farm: 1000, suburban: 20,000, gentrified_brooklyn:<br>1,000,000}</pre>
+        <br />
+        <p>You can populate a Hash differently, one by one, like this:</p>
+        <br />
         <pre>cities = {}<br>cities[:san_diego] = "college"<br>cities[:los_angeles] = "home"</pre>
-        <br>
-        <p>You can use hashes as named parameters in a method. This might be beyond the scope of this beginner post, but I thought it was pretty cool:</p><br>
+        <br />
+        <p>
+          You can use hashes as named parameters in a method. This might be
+          beyond the scope of this beginner post, but I thought it was pretty
+          cool:
+        </p>
+        <br />
         <pre>Employee.create(name: "Blake Griffin", age: 25)</pre>
-        <br>
-        <p>I think that's all I have for now. Til next time! Thanks for reading.
-       </div>
+        <br />
+        <p>
+          I think that's all I have for now. Til next time! Thanks for reading.
+        </p>
+      </div>
+    </div>
   </div>
-</div>
-
 </html>
