@@ -10,7 +10,6 @@
 }
 
 body {
-   background-color: #FFFFFF;
    height: 100%;
    font-family: 'Lato', sans-serif;
    font-family: 'Muli', sans-serif;
@@ -20,7 +19,6 @@ body {
    margin: 0;
    padding: 0;
    height: 100%;
-   color: black;
 }
 
 .main-content {
@@ -38,14 +36,13 @@ body {
   color: #01B5AA;
 }
 
-
 a {
   text-decoration: none;
 }
 
 img {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
 iframe {
@@ -74,14 +71,14 @@ h2 {
 }
 
 h5 {
-  color: gray;
+  color: white;
   text-align: center;
 }
 
-h6 {
-  color: gray;
+p {
+  color: white !important;
   padding: 4px;
-  text-align: center;
+  text-align: center !important;
 }
 
 .emphasis {
@@ -144,14 +141,18 @@ p {
 
 #blog-home-content {
   text-align: center;
-  border: 1px dashed gray;
+  border: 1px dashed white;
+  padding: 10px 20px;
   margin:0 auto;
   width: 85%;
   position: relative;
   color: black;
-  background-color: #FFFFFF;
   overflow: scroll;
   margin-bottom: 40px;
+}
+
+.emphasis {
+  color: yellow;
 }
 
 pre {

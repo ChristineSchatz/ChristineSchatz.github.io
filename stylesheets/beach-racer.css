@@ -1,0 +1,76 @@
+/* crab racer styles */
+
+.beach-racer {
+  background-image: url('../projects/crab_racer/beach_racer.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Muli', sans-serif;
+  font-size: 1.5em;
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Muli', sans-serif;
+}
+
+#playerA {
+  margin-left: 0;
+}
+
+#playerB {
+  margin-left: 0;
+}
+
+#board {
+  position: fixed;
+  bottom: 0;
+  width: 90%;
+}
+
+.instructions#begin {
+  margin: 0 auto;
+  width: 90px;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 35px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  behavior: url(js/PIE.htc);
+  position: relative;
+  text-decoration: none;
+}
+
+#result,
+.instructions {
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+.instructions {
+  position: absolute;
+  top: 100px;
+}
+
+.instructions #begin {
+  background-color: beige;
+  border-radius: 10px;
+  color: gray;
+  font-size: 18px;
+}

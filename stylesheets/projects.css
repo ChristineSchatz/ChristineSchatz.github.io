@@ -1,43 +1,7 @@
-/* projects customization starts here */
-
-
-#project-wrapper {
-  width: 55%;
-  margin: 0 auto;
-}
-
-h3, h1 {
-  color: #9932CC;
-  font-family: 'Lato', sans-serif;
-  text-align: left;
-}
-
-.project-break a:visited {
-  color: #9932CC;
-}
-
-..project-break a:link {
-  color: #9932CC;
-}
-
-.bold {
-  font-weight: bolder;
-}
-
-.project-grid {
-  width: 10.25em;
-  height: 10.25em;
-  display: inline-block;
+.mobile-header a {
+  color: white;
 }
 
 .project-description {
-  width: 11.25em; /*formerly 300px */
-  height: 10.25em; /*formerly 210px */
-  display: inline-block;
-  float: right;
+  color: white;
 }
-
-.project-break {
-  padding: 10px;
-}
-
